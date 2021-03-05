@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* -- Navigation Bar --*/
+/* -- Credit - Code solution borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
+
+nav {
+    background-color: #056e96;
+    padding: 5px 0 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+nav ul li.nav-link {
+    width: auto;
+    margin: 0 15px;
+    text-align: center;
+    position: relative;
+    order: 3;
+}
+
+nav ul li.nav-link:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 7px;
+    background: #2aacb6;
+    opacity: 0;
+    transition: linear all 0.3s; 
+}
+
+nav ul li.nav-link:hover:after {
+    opacity: 1;
+    bottom: 5px;
+}
+
+nav ul li.nav-brand {
+    flex: 1;
+    color: #ebe6e4;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+nav ul li.nav-logo {
+    display: flex;
+    padding: 0 0 5px 2px;
+    margin-left: -17px;
+    cursor: default;
+    user-select: none;
+}
+
+nav ul li a {
+    color: #ebe6e4;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+nav ul li:hover a {
+    color: #0b2c5c;
+    text-decoration: none;
+}
+
+nav ul li i {
+    font-size: 40px;
+}
+
+nav ul li.nav-btn {
+    display: none;
+    font-size: 1.6rem;
+    color: #ebe6e4;
+    padding-right: 10px;
+}
+
+nav ul li.nav-btn:hover.show:before {
+    content: "\f00d";
+}
