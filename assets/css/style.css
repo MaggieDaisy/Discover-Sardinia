@@ -94,3 +94,102 @@ nav ul li.nav-btn {
 nav ul li.nav-btn:hover.show:before {
     content: "\f00d";
 }
+
+/*-- Responsive rules for Navigation Bar --*/
+@media all and (max-width:900px) {
+ nav {
+     padding: 2px 5px;
+ }
+
+ nav ul li.nav-link {
+     width: 100%;
+     display: none;
+ }
+
+ nav ul li.nav-link.show {
+     display: block;
+ }
+
+ nav ul li.nav-link:hover {
+     box-shadow: 0 0 20px #2aacb6;
+     border-radius: 10px;
+ }
+
+ nav ul li.nav-link:hover:after {
+     opacity: 0;
+ }
+
+ nav ul li.nav-brand {
+     font-size: 1.5rem;
+     padding-bottom: 2px;
+ }
+
+ nav ul li.nav-logo {
+    padding: 0 0 0 20px;
+    margin-top: 10px;
+}
+
+ nav ul li a {
+     font-size: 1rem;
+ }
+
+ nav ul li.nav-btn {
+    display: block;
+}
+}
+
+/*-- Footer --*/
+footer {
+    height: 3.9rem;
+    color: #ebe6e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media {
+    text-align:center;
+    background-color:#056e96;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media a {
+    color: #ebe6e4;
+    font-size: 1.9rem;
+     padding: 10px;
+}
+
+.social-media a:hover {
+    background-color: #2aacb6;
+    color: #0b2c5c;
+    border-radius: 7px;
+    padding: 2px;
+    transition: 1s;
+}
+
+.social-media li p {
+    text-align: center;
+    font-size: 0.6rem;
+    padding-bottom: 3px;
+}
+
+/*-- Responsive rules for Footer --*/
+@media all and (max-width:900px) {
+footer {
+    height: 2.5rem;
+}  
+
+.social-media a {
+    color: #ebe6e4;
+    font-size: 1.3rem;
+}
+
+.social-media li p {
+    text-align: center;
+    font-size: 0.4rem;
+    padding-bottom: 3px;
+}
+}
