@@ -138,6 +138,34 @@ nav ul li.nav-btn:hover.show:before {
 }
 }
 
+/*-- HOME Section - Background slider --*/
+.carousel-item {
+    height: 37rem;
+    background:#0b2c5c;
+    color: #ebe6e4;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
 /*-- Footer --*/
 footer {
     height: 3.9rem;
