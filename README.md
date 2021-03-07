@@ -1,4 +1,4 @@
-<img src="assets/images/readme_hero.png" style="margin: 0;"> 
+<img src="assets/images/collage_flag.png" style="margin: 0;"> 
 
 # Discover Sardinia - Fairy Island 
 

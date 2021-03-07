@@ -24,10 +24,10 @@
             <li class="nav-logo"><img src="assets/images/logo_mini.png" alt="Flag of Sardinia"></li>
             <li class="nav-brand"><a href="index.html">Discover Sardinia</a></li>
             <li class="nav-link"><a href="index.html">Home</a></li>
-            <li class="nav-link"><a href="#">About</a></li>
-            <li class="nav-link"><a href="#">Trips</a></li>
-            <li class="nav-link"><a href="#">Attractions</a></li>
-            <li class="nav-link"><a href="#">Contact</a></li>
+            <li class="nav-link"><a href="#about-page">About</a></li>
+            <li class="nav-link"><a href="#trips-page">Trips</a></li>
+            <li class="nav-link"><a href="#attractions-page">Attractions</a></li>
+            <li class="nav-link"><a href="#contact-page">Contact</a></li>
             <li class="nav-btn"><i class="fas fa-map-signs"></i></li>
         </ul>
     </nav>
@@ -35,7 +35,7 @@
 
 <!-- Home section = landing page with background slider-->
     <!-- Credit - Code solution borrowed from Carousel Slider Bootstrap 5 | Slider Carousel Tutorial - https://www.youtube.com/watch?v=ku_97a6Bgkg --> 
-    <section id="home-page">
+    <section id="home-page" class="container-fluid px-0">
         <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
@@ -131,13 +131,91 @@
             <span class="sr-only">Next</span>
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
+        </div> 
+    </section>
+
+<!-- ABOUT section -->
+     <section id="about-page" class="container-fluid px-0">
+       <div class="row">
+            <div class="col text-center p-4">
+                <h2>ABOUT</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text-center">Little history and facts</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aut dolorum hic natus odio vero illum explicabo voluptatibus. Animi corrupti provident fuga, neque labore incidunt temporibus aspernatur reiciendis maiores quo?</p>
+            </div>
+            <div class="col-6">
+                <img class="img-fluid" src="assets/images/collage_flag.png" alt="Photo collage of Sardinia">
+            </div>
+        </div>
+
+     </section>
+
+<!-- TRIPS section -->     
+     <section id="trips-page" class="container-fluid px-0">
+          <div class="row">
+            <div class="col text-center p-4">
+                <h2>TRIPS</h2>
+            </div>
+        </div>
+     </section>
+
+<!-- ATTRACTIONS section -->
+     <section id="attractions-page" class="container-fluid px-0">
+          <div class="row">
+            <div class="col text-center p-4">
+                <h2>ATTRACTIONS</h2>
+            </div>
+        </div>
+     </section>
+
+<!-- CONTACT section -->
+     <section id="contact-page" class="container-fluid px-0">
+          <div class="row">
+            <div class="col text-center p-4">
+                <h2>CONTACT</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center m-4">
+        <p>Do you dream of an island vacation?</p>
+        <p>Do you need a lazy family package all-inclusive, an active combo without limits, a city break just for two, or maybe a conference or study tour for employees? We have the perfect offer for you, tailored to your individual needs. We are very passionate about travel and we are ready to design your exciting gateway to discover Sardinia. Please contact us below, share your ideas and make your dreams come true.
+            <br> We will answer all your questions.
+            </p>
+            </div>
         </div>
         
-    </section>
+          <div class="row">
+              <div class="col-md-3"></div>
+            
+            <div class="col-md-6 text-center">
+                <form id="responsiveForm" action="" style="background-image:url(assets/images/cala_goloritze.jpg) ;">
+      
+                  <div class="form-group">
+                    <label for="name">Name:</label> 
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required/>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label> 
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email address" required/>
+                  </div>
+                  <div class="form-group">
+                    <label for="textarea">Request:</label> 
+                    <textarea class="form-control" rows="7" cols="50" id="textarea" name="textarea" placeholder="Please write your request here"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" name="submit" class="form-control btn btn-primary" value="Send!"/>
+                  </div>
+                </form>
+                </div>
+              </div>
+     </section>
 
 
 <!-- Footer -->
-        <footer>
+<footer>
             <ul class="social-media">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>

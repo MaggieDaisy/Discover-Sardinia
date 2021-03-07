@@ -7,6 +7,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+hr {
+    color: #0b2c5c;
+
+}
+
 /* -- Navigation Bar --*/
 /* -- Credit - Code solution borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
 
@@ -140,12 +145,13 @@ nav ul li.nav-btn:hover.show:before {
 
 /*-- HOME Section - Background slider --*/
 .carousel-item {
-    height: 37rem;
+    height: 42rem;
     background:#0b2c5c;
     color: #ebe6e4;
     font-weight: 900;
     position: relative;
     text-align: center;
+    padding-top: 50px;
 }
 
 .container {
@@ -161,10 +167,45 @@ nav ul li.nav-btn:hover.show:before {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
-    background-position: center;
+    top: 70px;
+    background-position: center center;
     background-size: cover;
 }
+
+/*-- About Section --*/
+
+#about-page {
+    background: #64b3b7;
+}
+
+/*-- Contact Section --*/
+#contact-page {
+    background-color: #e7dcd1;
+}
+#responsiveForm{
+    background-image: url(/assets/images/cala_goloritze.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    min-height: 400px;
+    padding: 80px;
+    margin-bottom: 100px;
+    color: #ebe6e4;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+
+.form-control.btn {
+      background-color:#2aacb6;
+      color: #ebe6e4;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border: none;
+  }
+
+  .form-control.btn:hover {
+      background-color: #0b2c5c;
+  }
 
 /*-- Footer --*/
 footer {
