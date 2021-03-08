@@ -7,11 +7,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-hr {
-    color: #0b2c5c;
-
-}
-
 /* -- Navigation Bar --*/
 /* -- Credit - Code solution borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
 
@@ -144,6 +139,13 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 /*-- HOME Section - Background slider --*/
+
+.container-fluid {
+padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
 .carousel-item {
     height: 42rem;
     background:#0b2c5c;
