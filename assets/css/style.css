@@ -8,7 +8,7 @@
 }
 
 /* -- Navigation Bar --*/
-/* -- Credit - Code solution borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
+/* -- Credit - Code inspiration borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
 
 nav {
     background-color: #056e96;
@@ -93,6 +93,8 @@ nav ul li.nav-btn {
 
 nav ul li.nav-btn:hover.show:before {
     content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
 }
 
 /*-- Responsive rules for Navigation Bar --*/

@@ -1,222 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Discover Sardinia</title>
-</head>
-<body>
-    <!-- Navigation Bar -->
-<!-- Credit - Code inspiration borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --> 
-<header>
-    <nav class="fixed-top">
-        <ul>
-            <li class="nav-logo"><img src="assets/images/logo_mini.png" alt="Flag of Sardinia"></li>
-            <li class="nav-brand"><a href="index.html">Discover Sardinia</a></li>
-            <li class="nav-link"><a href="index.html">Home</a></li>
-            <li class="nav-link"><a href="#about-page">About</a></li>
-            <li class="nav-link"><a href="#trips-page">Trips</a></li>
-            <li class="nav-link"><a href="#attractions-page">Attractions</a></li>
-            <li class="nav-link"><a href="#contact-page">Contact</a></li>
-            <li class="nav-btn"><i class="fas fa-map-signs"></i></li>
-        </ul>
-    </nav>
-</header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <!-- <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous"
+        /> -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- External CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Discover Sardinia</title>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <!-- Credit - Code inspiration borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM -->
+        <header>
+            <nav class="fixed-top">
+                <ul>
+                    <li class="nav-logo"><img src="assets/images/logo_mini.png" alt="Flag of Sardinia" /></li>
+                    <li class="nav-brand"><a href="index.html">Discover Sardinia</a></li>
+                    <li class="nav-link"><a href="index.html">Home</a></li>
+                    <li class="nav-link"><a href="#about-page">About</a></li>
+                    <li class="nav-link"><a href="#trips-page">Trips</a></li>
+                    <li class="nav-link"><a href="#attractions-page">Attractions</a></li>
+                    <li class="nav-link"><a href="#contact-page">Contact</a></li>
+                    <li class="nav-btn"><i class="fas fa-map-signs"></i></li>
+                </ul>
+            </nav>
+        </header>
 
-<!-- Home section = landing page with background slider-->
-    <!-- Credit - Code solution borrowed from Carousel Slider Bootstrap 5 | Slider Carousel Tutorial - https://www.youtube.com/watch?v=ku_97a6Bgkg --> 
-    <section id="home-page" class="container-fluid px-0">
-        <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#homeCarousel" data-slide-to="1"></li>
-                <li data-target="#homeCarousel" data-slide-to="2"></li>
-                <li data-target="#homeCarousel" data-slide-to="3"></li>
-                <li data-target="#homeCarousel" data-slide-to="4"></li>
-                <li data-target="#homeCarousel" data-slide-to="5"></li>
-                <li data-target="#homeCarousel" data-slide-to="6"></li>
-                <li data-target="#homeCarousel" data-slide-to="7"></li>
-                <li data-target="#homeCarousel" data-slide-to="8"></li>
-            </ol>
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_goloritze.jpg);">
-                <div class="container">
-                    <h3>Discover Sardinia - Fairy Island</h3>
-                    <p>Cala Goloritze located in a town of Baunei</p>
-                </div>
-            </div>
-        </div>
-    
-            <div class="carousel-item">
-                <div class="overlay-image" style="background-image: url(assets/images/carousel/sartiglia_oristano.jpg);">
-                    <div class="container">
-                        <h3>Discover Sardinia - Fairy Island</h3>
-                        <p>Carnival Sartiglia in Oristano</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(assets/images/carousel/flamingo_lake.jpg);">
-                        <div class="container">
-                            <h3>Discover Sardinia - Fairy Island</h3>
-                            <p>Lake with flamingos in Cagliari</p>
+        <!-- Home section - landing page with background slider-->
+        <!-- Credit - Code inspiration borrowed from Carousel Slider Bootstrap 5 | Slider Carousel Tutorial - https://www.youtube.com/watch?v=ku_97a6Bgkg -->
+        <section id="home-page" class="container-fluid px-0">
+            <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#homeCarousel" data-slide-to="1"></li>
+                    <li data-target="#homeCarousel" data-slide-to="2"></li>
+                    <li data-target="#homeCarousel" data-slide-to="3"></li>
+                    <li data-target="#homeCarousel" data-slide-to="4"></li>
+                    <li data-target="#homeCarousel" data-slide-to="5"></li>
+                    <li data-target="#homeCarousel" data-slide-to="6"></li>
+                    <li data-target="#homeCarousel" data-slide-to="7"></li>
+                    <li data-target="#homeCarousel" data-slide-to="8"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_goloritze.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Cala Goloritze located in a town of Baunei</p>
+                            </div>
                         </div>
                     </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_burroni.jpg);">
-                    <div class="container">
-                        <h3>Discover Sardinia - Fairy Island</h3>
-                        <p>Cala Burroni located in a Villasimius</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(assets/images/carousel/nuraghe_losa.jpg);">
-                        <div class="container">
-                            <h3>Discover Sardinia - Fairy Island</h3>
-                            <p>Prehistoric Nuraghe Losa near by Abbasanta</p>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/sartiglia_oristano.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Carnival Sartiglia in Oristano</p>
+                            </div>
                         </div>
                     </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay-image" style="background-image: url(assets/images/carousel/streetart_orgosolo.jpg);">
-                    <div class="container">
-                        <h3>Discover Sardinia - Fairy Island</h3>
-                        <p>Welcome to Orgosolo a town of Murals</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(assets/images/carousel/village_sunrise.jpg);">
-                        <div class="container">
-                            <h3>Discover Sardinia - Fairy Island</h3>
-                            <p>Romantic sunrise in Sardinian village</p>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/flamingo_lake.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Lake with flamingos in Cagliari</p>
+                            </div>
                         </div>
                     </div>
-            </div>
-            <div class="carousel-item">
-                <div class="overlay-image" style="background-image: url(assets/images/carousel/castel_sardo.jpg);">
-                    <div class="container">
-                        <h3>Discover Sardinia - Fairy Island</h3>
-                        <p>Panorama of the prettiest town Castelsardo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                    <div class="overlay-image" style="background-image: url(assets/images/carousel/wild_nature.jpg);">
-                        <div class="container">
-                            <h3>Discover Sardinia - Fairy Island</h3>
-                            <p>Land filled with natural wonder</p>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_burroni.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Cala Burroni located in a Villasimius</p>
+                            </div>
                         </div>
                     </div>
-            </div>
-        </div>
-        <a href="#homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-        <span class="sr-only">Previous</span>
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a href="#homeCarousel" class="carousel-control-next" role="button" data-slide="prev">
-            <span class="sr-only">Next</span>
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-        </div> 
-    </section>
-
-<!-- ABOUT section -->
-     <section id="about-page" class="container-fluid px-0">
-       <div class="row">
-            <div class="col text-center p-4">
-                <h2>ABOUT</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="assets/images/collage_flag.png" alt="Photo collage of Sardinia">
-            </div>
-        </div>
-         <div class="col-md-6">
-                <h5 class="text-center">Little history and facts</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aut dolorum hic natus odio vero illum explicabo voluptatibus. Animi corrupti provident fuga, neque labore incidunt temporibus aspernatur reiciendis maiores quo?</p>
-            </div>
-
-     </section>
-
-<!-- TRIPS section -->     
-     <section id="trips-page" class="container-fluid px-0">
-          <div class="row">
-            <div class="col text-center p-4">
-                <h2>TRIPS</h2>
-            </div>
-        </div>
-     </section>
-
-<!-- ATTRACTIONS section -->
-     <section id="attractions-page" class="container-fluid px-0">
-          <div class="row">
-            <div class="col text-center p-4">
-                <h2>ATTRACTIONS</h2>
-            </div>
-        </div>
-     </section>
-
-<!-- CONTACT section -->
-     <section id="contact-page" class="container-fluid px-0">
-          <div class="row">
-            <div class="col text-center p-4">
-                <h2>CONTACT</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center m-4">
-        <p>Do you dream of an island vacation?</p>
-        <p>Do you need a lazy family package all-inclusive, an active combo without limits, a city break just for two, or maybe a conference or study tour for employees? We have the perfect offer for you, tailored to your individual needs. We are very passionate about travel and we are ready to design your exciting gateway to discover Sardinia. Please contact us below, share your ideas and make your dreams come true.
-            <br> We will answer all your questions.
-            </p>
-            </div>
-        </div>
-        
-          <div class="row">
-              <div class="col-md-3"></div>
-            
-            <div class="col-md-6 text-center">
-                <form id="responsiveForm" action="" style="background-image:url(assets/images/cala_goloritze.jpg) ;">
-      
-                  <div class="form-group">
-                    <label for="name">Name:</label> 
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required/>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email:</label> 
-                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email address" required/>
-                  </div>
-                  <div class="form-group">
-                    <label for="textarea">Request:</label> 
-                    <textarea class="form-control" rows="7" cols="50" id="textarea" name="textarea" placeholder="Please write your request here"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" name="submit" class="form-control btn btn-primary" value="Send!"/>
-                  </div>
-                </form>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/nuraghe_losa.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Prehistoric Nuraghe Losa near by Abbasanta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/streetart_orgosolo.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Welcome to Orgosolo a town of Murals</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/village_sunrise.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Romantic sunrise in Sardinian village</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/castel_sardo.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Panorama of the prettiest town Castelsardo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay-image" style="background-image: url(assets/images/carousel/wild_nature.jpg);">
+                            <div class="container">
+                                <h3>Discover Sardinia - Fairy Island</h3>
+                                <p>Land filled with natural wonder</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-     </section>
+                <a href="#homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a href="#homeCarousel" class="carousel-control-next" role="button" data-slide="prev">
+                    <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
 
+        <!-- ABOUT section -->
+        <section id="about-page" class="container-fluid px-0">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h2><i class="fas fa-edit"></i> ABOUT</h2>
+                </div>
+            </div>
 
-<!-- Footer -->
-<footer>
+            <div class="row pb-3 pt-3">
+                <div class="col-md-6 order-2 order-md-1">
+                    <img class="img-fluid" src="assets/images/capo_doroso.jpg" alt="Natural monument Bear Rock - Roccia dell Orso in Palau" />
+                </div>
+                <div class="col-md-6 text-center order-1 order-md-2">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <h4 class="text-center">Little history and facts</h4>
+                            <p>
+                                Sardinia - a synonym for exclusive holidays, she was able to take care of her tourist image. Elegance and class. The phenomenon of Sardinia can only be understood by getting to know it personally. Sandy beaches, steep rocks, fairy-tale bays, islets, and above all the crystal clear sea with its emerald color, are undoubtedly a breakthrough for the island's values.
+Sardinia boasts a rich past, the remnants of which are impressive testimonies of the Nuragic civilization. More than 7,000 nuraghes, megalithic structures in the shape of a truncated cone, which still intrigue scientists, have been preserved. Sardinia fascinates with original rituals, folklore, dialect and cuisine based on local products. The most developed tourist destination is the northern part of the island with the famous Costa Smeralda, or the Emerald Coast. The region owes its name to the extremely intense, even mesmerizing color of the sea. A varied shoreline with rock formations, hills descending straight into the sea, Mediterranean vegetation, crystal clear water create unique landscapes. The famous Sardinian beaches are often intimate and always picturesque, hidden in small coves. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-6 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <h4 class="text-center">Little history and facts</h4>
+                            <p>
+                                The most famous resort of Costa Smeralda is Porto Cervo - a favorite place of celebrities from around the world, an idyllic town with a huge yacht marina, dominated by the Stella Maris church. In Baja Sardinia on the Gulf of Arzachena, there is the Aquadream water park, and in the vicinity - the famous Ritual disco. South of the Costa Smeralda is the famous resort of Porto Rotondo, named after the port's round shape. The central point of the town is a piazza with boutiques, cafes and restaurants. There are many beaches in the area, including the famous Marinella, known to lovers of water sports. North of the Costa Smeralda lies the popular resort of Palau with wonderful beaches and rocky islets emerging from the crystal sea. The symbol of the city is Orso - a natural rock formation at an altitude of 122 m, which resembles a bear gazing at the sea. From Palau you can go on a cruise around the beautiful islands of the La Maddalena archipelago, with wonderful pristine beaches. While spending your holidays in Sardinia, you should also taste the local wines, which are considered to be one of the best in Italy: for example, the fine white wines of Vermentino di Gallura or strong red Cannonau are a great complement to traditional Sardinian dishes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="assets/images/isola_rossa.jpg" alt="Sixteenth-century Torre Aragonese - Tower on clif on Costa Rossa" />
+                </div>
+            </div>
+        </section>
+
+        <!-- TRIPS section -->
+        <section id="trips-page" class="container-fluid px-0">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h2><i class="fas fa-car-side"></i> TRIPS</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- ATTRACTIONS section -->
+        <section id="attractions-page" class="container-fluid px-0">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h2><i class="fas fa-monument"></i> ATTRACTIONS</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT section -->
+        <section id="contact-page" class="container-fluid px-0">
+            <div class="row">
+                <div class="col text-center p-4">
+                    <h2><i class="fas fa-envelope"></i> CONTACT</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h4 class="text-center">Do you dream of an island vacation?</h4>
+                </div>
+                <div class="col-10 text-center">
+                    <p>
+                        Do you need a lazy family package all-inclusive, an active combo without limits, a city break just for two, or maybe a conference or study tour for employees? <br />
+                        We have the perfect offer for you, tailored to your individual needs. We are very passionate about travel and we are ready to design your exciting gateway to discover Sardinia. <br />
+                        Please contact us below, share your ideas and make your dreams come true. <br />
+                        We will answer all your questions.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 text-center">
+                    <form id="responsiveForm" action="" style="background-image: url(assets/images/cala_goloritze.jpg);">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Request:</label>
+                            <textarea class="form-control" rows="7" cols="50" id="textarea" name="textarea" placeholder="Please write your request here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" class="form-control btn btn-primary" value="Send!" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
             <ul class="social-media">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -236,9 +264,9 @@
             </ul>
         </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
-    <script src="assets/js/script.js"></script> 
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
