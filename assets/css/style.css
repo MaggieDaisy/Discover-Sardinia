@@ -7,9 +7,14 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* -- Navigation Bar --*/
-/* -- Credit - Code inspiration borrowed from YouTube tutorial "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" by CodingNepal - https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
+.container-fluid {
+padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
 
+/* -- Navigation Bar --*/
+/*-- Credit - Code inspiration borrowed from "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" Tutorial by CodingNepal- https://www.youtube.com/watch?v=mbDNrvKLAGM --*/
 nav {
     background-color: #056e96;
     padding: 5px 0 0 20px;
@@ -141,13 +146,7 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 /*-- HOME Section - Background slider --*/
-
-.container-fluid {
-padding-left: 0rem;
-  padding-right: 0rem;
-  overflow: hidden;
-}
-
+/*-- Credit - Code inspiration borrowed from "Carousel Slider Bootstrap 5 | Slider Carousel" Tutorial by Adrian Twarog - https://www.youtube.com/watch?v=ku_97a6Bgkg --*/
 .carousel-item {
     height: 42rem;
     background:#0b2c5c;
@@ -163,7 +162,7 @@ padding-left: 0rem;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 100px;
+    padding-bottom: 100px;    
 }
 
 .overlay-image {
@@ -182,10 +181,66 @@ padding-left: 0rem;
     background: #64b3b7;
 }
 
+
+/*-- TRIPS Section --*/
+/*-- Credit - Code inspiration borrowed from content of "JQuery Effects - Challenge 3" by Code Institute course- https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first --*/
+#trips-page {
+    background: #ebe6e4;
+}
+
+#wrapper {
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;	
+}
+
+.card ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.card {
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #5d9dbc;
+}
+
+#wrapper button {
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    background-color: #0b2c5c;
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    color: #ebe6e4;
+	font-size: 2rem
+}
+
+#wrapper button:hover {
+    background-color: #2aacb6;
+    transition: 1s;
+    color: #0b2c5c;
+    border: #0b2c5c solid 1px;
+}
+
+/*-- Responsive rules for Trips Section --*/
+@media screen and (min-width: 600px) {
+	#wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 10px;
+	}
+}
+
 /*-- Contact Section --*/
+/*-- Credit - Code inspiration borrowed from "Responsive Form on top of Responsive Image - Bootstrap" documentation by Stack Overflow - https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap --*/
 #contact-page {
     background-color: #e7dcd1;
 }
+
 #responsiveForm{
     background-image: url(/assets/images/cala_goloritze.jpg);
     background-size: cover;
@@ -201,7 +256,7 @@ padding-left: 0rem;
 
 .form-control.btn {
       background-color:#2aacb6;
-      color: #ebe6e4;
+      color: #0b2c5c;
     font-weight: bolder;
     font-size: 1.5rem;
     border: none;
@@ -209,6 +264,8 @@ padding-left: 0rem;
 
   .form-control.btn:hover {
       background-color: #0b2c5c;
+      border: #ebe6e4 solid 1px;
+      color: #ebe6e4;
   }
 
 /*-- Footer --*/
