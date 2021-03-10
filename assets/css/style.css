@@ -235,6 +235,46 @@ nav ul li.nav-btn:hover.show:before {
 	}
 }
 
+/*-- Gallery scrolling --*/
+#img-container{
+    position: relative;
+    height: 490px; 
+}
+
+#img-slide{
+    position: relative;
+    width: max-content;
+    display: inline-block;
+}
+
+.img-row{
+    display: block;
+    position: relative;
+    animation:linear infinite;
+    animation-name: scroll;
+    animation-duration: 30s;
+}
+
+#img-slide img{
+    height: 160px;
+    width: auto;
+    padding: 3px;
+}
+
+@keyframes scroll {
+    0% {
+        right: 0%;
+    }
+    
+    50% {
+        right: 26%;
+    }
+    100% {
+        right: 0%;
+    }
+} 
+
+
 /*-- Contact Section --*/
 /*-- Credit - Code inspiration borrowed from "Responsive Form on top of Responsive Image - Bootstrap" documentation by Stack Overflow - https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap --*/
 #contact-page {
