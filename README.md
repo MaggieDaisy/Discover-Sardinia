@@ -1,18 +1,18 @@
-<img src="assets/images/collage_flag.png" style="margin: 0;"> 
+<img src="assets/images/collage_flag.png" style="margin: 0;">
 
 # Discover Sardinia - Fairy Island 
 
 ## Table of Contents
-1. Project purpose and introduction
-2. UXD – User Experience Design
-3. Features
-4. Technologies and Resources used
-5. Testing
-6. Project barriers and solutions
-7. Version Control
-8. Deployment
-9. Credits
-10. Acknowledgments
+1. Project purpose and introduction
+2. UXD – User Experience Design
+3. Features
+4. Technologies and Resources used
+5. Testing
+6. Project barriers and solutions
+7. Version Control
+8. Deployment
+9. Credits
+10. Acknowledgments
 
 # 1. Project purpose and introduction
 
@@ -71,12 +71,12 @@ The structure of the application is based on meeting the first needs of the pote
 
 * 1 single page with 5 different content sections and the possibility to navigate between them
 * Header – fixed navigation bar with logo and brand name
-* 5 main sections called: 
-Home – Landing page with hero images
-About – Page with practical and historical information
-Trips – Showcase of three local trips
-Attractions – Showcase of attraction locations 
-Contact – Form to send request
+* 5 main sections called:
+~ Home – Landing page with hero sliding images
+~ About – Page with practical and historical information and gallery
+~ Trips – Showcase of three local trips and gallery
+~ Attractions – Showcase of attraction and their locations 
+~ Contact – Form to send request 
 * Footer – fixed footer with social media icons 
 
 ### **Surface**
@@ -85,11 +85,12 @@ The visual experience of this project reflects the theme of happy vacation, 
 
 * Colors
 
-A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as:
-blue light and blue dark 
-creamy-sandy-beige to create visual contrast between elements and sections. 
+A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as:
+blue light and blue dark as well as creamy-sandy-beige to create visual contrast between elements and sections. 
 
-In addition, one more color was picked, like ,,,,, for hover active elements like buttons, social media icons, active links.
+In addition, two more shades of colors were picked, turquoise and emerald, for hover active elements like buttons, social media icons, active links, and some background colors.
+
+<img src="assets/docs/color_palette.jpg" style="margin: 0;">
 
 * Typography
 
@@ -192,26 +193,29 @@ The first step was to create a new "Repository" named Discover Sardini
 
 * Content
 
-The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing place**, and for **educational purposes only**. Inspiration to create informative and consistent  content was borrowed from sources:
+The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing company**, and for **educational purposes only**. Inspiration to create informative and consistent  content was borrowed from sources:
 [**1**](https://ww) and 
 [**2**](https://www)
 
 * Media
 
-All the images used in this site were picked from 
+All the images used in this site were picked from:
+
 [**Unsplash**](https://unsplash.com/) - a website dedicated to sharing stock photography for free for every kind of project
+
 [**Pixabay**](https://pixabay.com/) - a stunning free images & royalty free stock
 
-To create self a logo I borrowed first flag template from
+To create a logo I borrowed first flag template and developed further in GIMP:
+
 [**FAVPNG**](https://favpng.com/png_view/charles-albert-of-sardinia-flag-of-sardinia-regions-of-italy-sardinian-people-png/1aQdepzq) - a database of free transparent PNG Images 
 
 * Code
-1. Code snippet from [**Bootsrap 4 components**](https://getbootstrap.com/docs/4.0/components/navbar/) for responsive navigation bar
-2. Background Slider code soultion on the landing page - inspiration and code snippet from [**50 Projects In 50 Days - HTML, CSS & JavaScript**](https://www.udemy.com/course/50-projects-50-days/)
- course created by Brad Traversy and Florin Pop 
-3. Gallery form inspiration was borrowed from …....
-4. Inspiration for map was borrowed from course content walkthrough Rosie
-5. Inspiration for email was borrowed from course content walkthrough Rosie
+- Code inspiration for responsive and interactive navigation bar borrowed from - [**Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox - Tutorial by CodingNepal**](https://www.youtube.com/watch?v=mbDNrvKLAGM)
+- Code inspiration for background slider on the landing Home page borrowed from- [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
+- Code inspiration for gallery effects in About and Trips section borrowed from -  
+- Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
+- Code inspiration for map locations of attractions borrowed from - course content walkthrough Rosie
+- Code inspiration for map locations of attractions borrowed from ----
 
 # 10. Acknowledgments
 
