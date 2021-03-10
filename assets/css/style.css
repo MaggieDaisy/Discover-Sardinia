@@ -176,9 +176,12 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 /*-- About Section --*/
-
 #about-page {
     background: #64b3b7;
+}
+
+#about-page img {
+    border-radius: 15px;
 }
 
 
@@ -235,7 +238,7 @@ nav ul li.nav-btn:hover.show:before {
 	}
 }
 
-/*-- Gallery scrolling --*/
+/*-- Scrolling Gallery--*/
 #img-container{
     position: relative;
     height: 490px; 
@@ -272,6 +275,32 @@ nav ul li.nav-btn:hover.show:before {
         right: 0%;
     }
 } 
+
+/*-- Attractions Section --*/
+
+#attractions-page {
+    background-color: #5d9bdc;
+}
+
+#attractions-page button {
+  box-sizing: border-box;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    background-color: #0b2c5c;
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    color: #ebe6e4;
+    font-size: 2rem
+}
+
+#attractions-page button:hover {
+    background-color: #2aacb6;
+    transition: 1s;
+    color: #0b2c5c;
+    border: #0b2c5c solid 1px;
+}
 
 
 /*-- Contact Section --*/
