@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .container-fluid {
-padding-left: 0rem;
-  padding-right: 0rem;
-  overflow: hidden;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
 }
 
 /* -- Navigation Bar --*/
@@ -43,14 +43,14 @@ nav ul li.nav-link {
 
 nav ul li.nav-link:after {
     position: absolute;
-    content: '';
+    content: "";
     height: 2px;
     width: 100%;
     left: 0;
     bottom: 7px;
     background: #2aacb6;
     opacity: 0;
-    transition: linear all 0.3s; 
+    transition: linear all 0.3s;
 }
 
 nav ul li.nav-link:hover:after {
@@ -61,13 +61,14 @@ nav ul li.nav-link:hover:after {
 nav ul li.nav-brand {
     flex: 1;
     color: #ebe6e4;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-left: 15px;
+    font-weight: 600;
 }
 
 nav ul li.nav-logo {
     display: flex;
-    padding: 0 0 5px 2px;
+    padding: 4px 0 0 3px;
     margin-left: -17px;
     cursor: default;
     user-select: none;
@@ -78,6 +79,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.3rem;
     transition: 0.5s;
+    font-weight: 500;
 }
 
 nav ul li:hover a {
@@ -103,53 +105,53 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 /*-- Responsive rules for Navigation Bar --*/
-@media all and (max-width:900px) {
- nav {
-     padding: 2px 5px;
- }
+@media all and (max-width: 900px) {
+    nav {
+        padding: 2px 5px;
+    }
 
- nav ul li.nav-link {
-     width: 100%;
-     display: none;
- }
+    nav ul li.nav-link {
+        width: 100%;
+        display: none;
+    }
 
- nav ul li.nav-link.show {
-     display: block;
- }
+    nav ul li.nav-link.show {
+        display: block;
+    }
 
- nav ul li.nav-link:hover {
-     box-shadow: 0 0 20px #2aacb6;
-     border-radius: 10px;
- }
+    nav ul li.nav-link:hover {
+        box-shadow: 0 0 20px #2aacb6;
+        border-radius: 10px;
+    }
 
- nav ul li.nav-link:hover:after {
-     opacity: 0;
- }
+    nav ul li.nav-link:hover:after {
+        opacity: 0;
+    }
 
- nav ul li.nav-brand {
-     font-size: 1.5rem;
-     padding-bottom: 2px;
- }
+    nav ul li.nav-brand {
+        font-size: 1.5rem;
+        padding-bottom: 2px;
+    }
 
- nav ul li.nav-logo {
-    padding: 0 0 0 20px;
-    margin-top: 10px;
-}
+    nav ul li.nav-logo {
+        padding: 0 0 0 20px;
+        margin-top: 10px;
+    }
 
- nav ul li a {
-     font-size: 1rem;
- }
+    nav ul li a {
+        font-size: 1rem;
+    }
 
- nav ul li.nav-btn {
-    display: block;
-}
+    nav ul li.nav-btn {
+        display: block;
+    }
 }
 
 /*-- HOME Section - Background slider --*/
 /*-- Credit - Code inspiration borrowed from "Carousel Slider Bootstrap 5 | Slider Carousel" Tutorial by Adrian Twarog - https://www.youtube.com/watch?v=ku_97a6Bgkg --*/
 .carousel-item {
     height: 42rem;
-    background:#0b2c5c;
+    background: #0b2c5c;
     color: #ebe6e4;
     font-weight: 900;
     position: relative;
@@ -162,7 +164,7 @@ nav ul li.nav-btn:hover.show:before {
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 100px;    
+    padding-bottom: 100px;
 }
 
 .overlay-image {
@@ -184,7 +186,6 @@ nav ul li.nav-btn:hover.show:before {
     border-radius: 15px;
 }
 
-
 /*-- TRIPS Section --*/
 /*-- Credit - Code inspiration borrowed from content of "JQuery Effects - Challenge 3" by Code Institute course- https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first --*/
 #trips-page {
@@ -192,10 +193,10 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 #wrapper {
-	box-sizing:border-box;
-	margin-right:auto;
-	margin-left:auto;
-	width: 100%;	
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 
 .card ul {
@@ -204,9 +205,9 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 .card {
-	margin-top: 10px;
-	padding: 20px;
-	background-color: #5d9dbc;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #5d9dbc;
 }
 
 #wrapper button {
@@ -219,7 +220,7 @@ nav ul li.nav-btn:hover.show:before {
     padding: 0.5rem 0.3rem;
     border: none;
     color: #ebe6e4;
-	font-size: 2rem
+    font-size: 2rem;
 }
 
 #wrapper button:hover {
@@ -231,34 +232,34 @@ nav ul li.nav-btn:hover.show:before {
 
 /*-- Responsive rules for Trips Section --*/
 @media screen and (min-width: 600px) {
-	#wrapper {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-column-gap: 10px;
-	}
+    #wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
 }
 
 /*-- Scrolling Gallery--*/
-#img-container{
+#img-container {
     position: relative;
-    height: 490px; 
+    height: 490px;
 }
 
-#img-slide{
+#img-slide {
     position: relative;
     width: max-content;
     display: inline-block;
 }
 
-.img-row{
+.img-row {
     display: block;
     position: relative;
-    animation:linear infinite;
+    animation: linear infinite;
     animation-name: scroll;
     animation-duration: 30s;
 }
 
-#img-slide img{
+#img-slide img {
     height: 160px;
     width: auto;
     padding: 3px;
@@ -269,12 +270,12 @@ nav ul li.nav-btn:hover.show:before {
         right: 0%;
     }
     50% {
-        right: 25%;
+        right: 26%;
     }
     100% {
         right: 0%;
     }
-} 
+}
 
 /*-- Attractions Section --*/
 
@@ -283,7 +284,7 @@ nav ul li.nav-btn:hover.show:before {
 }
 
 #attractions-page button {
-  box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 15px;
     display: block;
     width: 100%;
@@ -292,7 +293,7 @@ nav ul li.nav-btn:hover.show:before {
     padding: 0.5rem 0.3rem;
     border: none;
     color: #ebe6e4;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 #attractions-page button:hover {
@@ -302,14 +303,13 @@ nav ul li.nav-btn:hover.show:before {
     border: #0b2c5c solid 1px;
 }
 
-
 /*-- Contact Section --*/
 /*-- Credit - Code inspiration borrowed from "Responsive Form on top of Responsive Image - Bootstrap" documentation by Stack Overflow - https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap --*/
 #contact-page {
     background-color: #e7dcd1;
 }
 
-#responsiveForm{
+#responsiveForm {
     background-image: url(/assets/images/cala_goloritze.jpg);
     background-size: cover;
     background-size: 100% 100%;
@@ -320,21 +320,21 @@ nav ul li.nav-btn:hover.show:before {
     color: #ebe6e4;
     font-weight: bolder;
     font-size: 1.5rem;
-  }
+}
 
 .form-control.btn {
-      background-color:#2aacb6;
-      color: #0b2c5c;
+    background-color: #2aacb6;
+    color: #0b2c5c;
     font-weight: bolder;
     font-size: 1.5rem;
     border: none;
-  }
+}
 
-  .form-control.btn:hover {
-      background-color: #0b2c5c;
-      border: #ebe6e4 solid 1px;
-      color: #ebe6e4;
-  }
+.form-control.btn:hover {
+    background-color: #0b2c5c;
+    border: #ebe6e4 solid 1px;
+    color: #ebe6e4;
+}
 
 /*-- Footer --*/
 footer {
@@ -346,8 +346,8 @@ footer {
 }
 
 .social-media {
-    text-align:center;
-    background-color:#056e96;
+    text-align: center;
+    background-color: #056e96;
 }
 
 .social-media li {
@@ -357,7 +357,7 @@ footer {
 .social-media a {
     color: #ebe6e4;
     font-size: 1.9rem;
-     padding: 10px;
+    padding: 10px;
 }
 
 .social-media a:hover {
@@ -375,19 +375,19 @@ footer {
 }
 
 /*-- Responsive rules for Footer --*/
-@media all and (max-width:900px) {
-footer {
-    height: 2.5rem;
-}  
+@media all and (max-width: 900px) {
+    footer {
+        height: 2.5rem;
+    }
 
-.social-media a {
-    color: #ebe6e4;
-    font-size: 1.3rem;
-}
+    .social-media a {
+        color: #ebe6e4;
+        font-size: 1.3rem;
+    }
 
-.social-media li p {
-    text-align: center;
-    font-size: 0.4rem;
-    padding-bottom: 3px;
-}
+    .social-media li p {
+        text-align: center;
+        font-size: 0.4rem;
+        padding-bottom: 3px;
+    }
 }
