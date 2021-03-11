@@ -98,9 +98,9 @@ nav ul li.nav-btn {
     padding-right: 10px;
 }
 
-nav ul li.nav-btn:hover.show:before {
+nav ul li.nav-btn:hover.show::before {
     content: "\f00d";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
 }
 
@@ -315,8 +315,8 @@ nav ul li.nav-btn:hover.show:before {
     background-size: 100% 100%;
     border-radius: 15px;
     min-height: 400px;
-    padding: 80px;
-    margin-bottom: 100px;
+    padding: 60px;
+    margin-bottom: 50px;
     color: #ebe6e4;
     font-weight: bolder;
     font-size: 1.5rem;
@@ -328,6 +328,7 @@ nav ul li.nav-btn:hover.show:before {
     font-weight: bolder;
     font-size: 1.5rem;
     border: none;
+    border-radius: 15px;
 }
 
 .form-control.btn:hover {
