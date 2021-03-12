@@ -20,6 +20,16 @@
         <!-- External CSS -->
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>Discover Sardinia</title>
+        <!-- EmailJS -->
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+        </script>
+            <script type="text/javascript">
+                (function(){
+                    emailjs.init("user_WLhGZxEwDdPvuoMHqBmQh");
+                    emailjs.send("service_4f9lyhb", "sardinia", {nam: "Maggie", notes: "The request is about"})
+                })();
+</script>
     </head>
     <body>
         <!-- Navigation Bar -->
