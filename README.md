@@ -16,20 +16,17 @@
 
 # 1. Project purpose and introduction
 
-This project was created to demonstrate the acquisition of broader coding skills as part of the Code Institute Fullstack Web Developer Course. Technologies used during the application development process are mainly: HTML, CSS, JS, with additional framework such as Bootstrap and librarie such as jQuery. This project aims to create a responsive website that will activate the user in search of information.
+This project was created to demonstrate the acquisition of broader coding skills as part of the Code Institute Fullstack Web Developer Course. Technologies used during the application development process are mainly: HTML, CSS, JS, with an additional framework such as Bootstrap and library such as jQuery. This project aims to create a responsive website that will activate the user in search of information.
 
 ## Discover Sardinia - Fairy Island 
 
 [**View the live project here**](https://.......)
 
-include link to this milestoneproject !
- 
-Discover Sardinia is an interactive guide to the Italian island located in the central part of the Mediterranean. The purpose of this guide is to demonstrate the tourist attractions offered by the island. This guide can benefit both tourists arriving from other places and the local population. The website offers brief practical and historical information about the island, as well as a local excursion package, maps with key places to see, and a contact form to request an individual offer or other sorts of information.
-This application is an alternative to large commercial travel agencies and extensive paper guides. Discover Sardinia is a fictional organization, small travel operator, created for this project with purely scientific purposes. The crew of Discover Sardinia is residents, passionate about active leisure, as well as the history and culture of the island. They have direct access to local attractions, guides, transports, databases, accommodation, and other useful information needed during the trip. Therefore, they can design a trip tailored to the individual needs of tourists. This website is designed in such a way that the user can check it at any time, on the phone on the road, or at home on the computer. The project may be expanded in the future with other, more detailed sections.
+Discover Sardinia is an interactive guide of the Italian island located in the central part of the Mediterranean. The purpose of this guide is to demonstrate the tourist attractions offered by the island. This guide can benefit both tourists arriving from other places and the local population. The website offers brief practical and historical information about the island, as well as a local excursion package, maps with key places to see, and a contact form to request an individual offer or other sorts of information. This application is an alternative to large commercial travel agencies and extensive paper guides. Discover Sardinia is a fictional organization, a small travel operator, created for this project with purely scientific purposes. The crew of Discover Sardinia is residents, passionate about active leisure, as well as the history and culture of the island. They have direct access to local attractions, guides, transports, databases, accommodation, and other useful information needed during the trip. Therefore, they can design a trip tailored to the individual needs of tourists. This website is designed in such a way that the user can check it at any time, on the phone on the road, or at home on the computer. The project may be expanded in the future with other, more detailed sections.
 
-<img src="assets/docs/airmockup.jpg" style="margin: 0;">
+<img src="assets/docs/..." style="margin: 0;">
 
-               ! add mockup for Sardinia !
+add mockup for Sardinia !
 
 # 2. UXD – User Experience Design
 
@@ -63,7 +60,7 @@ Current and further developing  but still beginner level of designing skill abil
 
 ### **Structure**
 
-The structure of the application is based on meeting the first needs of the potential user. Website is simple structured, learnable, and intuitive, first interaction enables the quick and easy finding of information and orientation between features. The text content is short and consistent and the imagery is simple and clean, both describe the place, aim, and services very well. All sections allow the user to interact with the site using built-in functions.
+The structure of the application is based on meeting the first needs of the potential user. The website is simple structured, learnable, and intuitive, the first interaction enables the quick and easy finding of information and orientation between features. The text content is short and consistent and the imagery is simple and clean, both describe the place, aim, and services very well. All sections allow the user to interact with the site using built-in functions.
 
 ### **Skeleton**
 
@@ -72,11 +69,11 @@ The structure of the application is based on meeting the first needs of the pote
 * 1 single page with 5 different content sections and the possibility to navigate between them
 * Header – fixed navigation bar with logo and brand name
 * 5 main sections called:
-~ Home – Landing page with hero sliding images
-~ About – Page with practical and historical information and gallery
-~ Trips – Showcase of three local trips and gallery
-~ Attractions – Showcase of attraction and their locations 
-~ Contact – Form to send request 
+* Home – Landing page with hero sliding images
+* About – Page with practical and historical information and gallery
+* Trips – Showcase of three local trips and gallery
+* Attractions – Showcase of attraction and their locations
+* Contact – Form to send request 
 * Footer – fixed footer with social media icons 
 
 ### **Surface**
@@ -85,35 +82,35 @@ The visual experience of this project reflects the theme of happy vacation, 
 
 * Colors
 
-A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as:
-blue light and blue dark as well as creamy-sandy-beige to create visual contrast between elements and sections. 
+A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as blue light and blue dark as well as creamy-sandy beige to create visual contrast between elements and sections. 
 
-In addition, two more shades of colors were picked, turquoise and emerald, for hover active elements like buttons, social media icons, active links, and some background colors.
+Also, two more shades of colors were picked, turquoise and emerald, for hover active elements like buttons, social media icons, active links, and some background colors.
 
 <img src="assets/docs/color_palette.jpg" style="margin: 0;">
 
 * Typography
 
-Font 'Lato' was used for the clean, modern, and transparent experience for the whole body content. Selected from google fonts after recommendations other users that this specific font is good for clear readability and professional layout of travel projects
+Font **'Lato'** was used for the clean, modern, and transparent experience for the whole body content. Selected from google fonts after recommendations other users that this specific font is good for clear readability and professional layout of travel projects
 
 * Images
 
 The selection of images has been made to present nature, landscapes, architecture, folklore, and the history of the Island. Image presentation shows to potential tourists the attractive places to visit and the entire beauty of this fairy place.
 
 * Design
-Other design choices during developing process ?????
+
+Other design choices used during developing process
 
 # 3. Features
 
 ### Existing Features
-* Website with 5 individual and separate sections which are linked together to create a responsive coherent whole
-* A fixed/sticky-top navbar allows user-easy and intuitive navigation
+* A website with 5 individual and separate sections which are linked together to create a responsive coherent whole
+* A fixed-top navbar allows user-easy and intuitive navigation
 * A Home landing page shows a selection of hero images with the possibility to navigate to right and left direction
 * An About section contains moving gallery presentation and written content
 * A Trips section presents 3 choices of trips and click buttons to display each option
 * An Attractions section contains click buttons for chosen attractions and displays them on the map 
 * Contact form with a possibility to write and send the actual message 
-* A fixed/sticky-bottom footer allows to user clever access to social media
+* A fixed-bottom footer allows to user clever access to social media
 
 ### Features left to implement when skills developed
 * Enlarge the page with additional sections, more trips choices, and content for alternative attractions, once time stretch is allowing 
@@ -127,7 +124,7 @@ Other design choices during developing process ?????
 * **HTML - HTML5 technology** – was used as the main language to create the structure of the Website.
 * **CSS - CSS3 technology** – was used as the main language to style the Website.
 * **JS - JavaScript technology** – was used as the main language to create the interactive elements of the Website.
-* [**Bootstrap**](https://getbootstrap.com/) - Bootstrap framework was used as an open-source to create responsive features and modern design of the Website.
+* [**Bootstrap**](https://getbootstrap.com/) - Bootstrap framework was used as an open-source to create responsive features and modern design of the Website.
 * [**jQuery**](https://jquery.com/) - jQuery library was used as an open-source to create interactive features.
 * [**Font Awesome**](https://fontawesome.com/) - Font Awesome Icons were used for social media links and marking separate parts of sections.
 * [**Google Fonts**](https://fonts.google.com/specimen/Inconsolata) - Google Font used throughout this project was 'Inconsolata'.
@@ -156,17 +153,17 @@ Other design choices during developing process ?????
 * **Microsoft Paint** - a simple raster graphics editor has been used for editing and resizing pictures. 
 
 # 5. Testing
+
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
 **This is an interactive front-end web application developed and implemented by using HTML, CSS and JavaScript with additional Bootstrap and jQuery elements**, so required testing was conducted on the basis of visual effects, website layout and interactive actions which user can take it during navigation.
 
-_**General testing results:**_ -----> You can find here --- link !!!!!! to other file tests.md 
+_**General testing results:**_ --> You can find here --- link !!!!!! to other file tests.md 
 
 coming ...
 
-
 # 6. Project barriers and solutions
 
-coming ............
+coming ...
 
 # 7. Version Control
 
@@ -201,21 +198,21 @@ The text content for this page was created by student Malgorzata Czer
 
 All the images used in this site were picked from:
 
-[**Unsplash**](https://unsplash.com/) - a website dedicated to sharing stock photography for free for every kind of project
+- [**Unsplash**](https://unsplash.com/) - a website dedicated to sharing stock photography for free for every kind of project
 
-[**Pixabay**](https://pixabay.com/) - a stunning free images & royalty free stock
+- [**Pixabay**](https://pixabay.com/) - a stunning free images & royalty free stock
 
 To create a logo I borrowed first flag template and developed further in GIMP:
 
-[**FAVPNG**](https://favpng.com/png_view/charles-albert-of-sardinia-flag-of-sardinia-regions-of-italy-sardinian-people-png/1aQdepzq) - a database of free transparent PNG Images 
+- [**FAVPNG**](https://favpng.com/png_view/charles-albert-of-sardinia-flag-of-sardinia-regions-of-italy-sardinian-people-png/1aQdepzq) - a database of free transparent PNG Images 
 
 * Code
 - Code inspiration for responsive and interactive navigation bar borrowed from - [**Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox - Tutorial by CodingNepal**](https://www.youtube.com/watch?v=mbDNrvKLAGM)
 - Code inspiration for background slider on the landing Home page borrowed from- [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
 - Code inspiration for gallery effects in About and Trips section borrowed from -  
 - Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
-- Code inspiration for map locations of attractions borrowed from - course content walkthrough Rosie
-- Code inspiration for map locations of attractions borrowed from ----
+- Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
+- Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "   "
 
 # 10. Acknowledgments
 
