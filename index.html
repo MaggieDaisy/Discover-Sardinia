@@ -321,18 +321,16 @@
             </div>
             <div class="row pb-3 pt-3">
                 <div class="col-md-6 text-center">
-                    <button id="beach-button" class="my-3"><i class="fas fa-umbrella-beach"></i> Beches</button>
-                    <button id="hotel-button" class="my-3"><i class="fas fa-hotel"></i> Hotels</button>
-                    <button id="attraction-button" class="my-3"><i class="fas fa-eye"></i> Attractions</button>
-                    <button id="restaurant-button" class="my-3"><i class="fas fa-cocktail"></i> Restaurants</button>
+                    <button id="beach-button" class="my-5"><i class="fas fa-umbrella-beach"></i> Beches</button>
+                    <button id="hotel-button" class="my-5"><i class="fas fa-hotel"></i> Hotels</button>
+                    <button id="attraction-button" class="my-5"><i class="fas fa-eye"></i> Attractions</button>
+                    <button id="restaurant-button" class="my-5"><i class="fas fa-cocktail"></i> Restaurants</button>
                 </div>
                 <div class="col-md-6 text-center">
                     <div class="row justify-content-center">
-                        <div class="col-10">
-                            <h4 class="text-center">Location</h4>
-                            <p>
-                                Google Maps API
-                            </p>
+                        <div class="col">
+                            <h4 class="text-center">Locations</h4>
+                            <div id="map"></div>
                         </div>
                     </div>
                 </div>
@@ -414,11 +412,22 @@
         <!-- External JS -->
         <script src="assets/js/script.js"></script>
         <script src="assets/js/sendemail.js"></script>
-        <!-- Inline JS -->
+        <!-- Inline JS for Send Email-->
         <script type="text/javascript">
                 (function(){
                     emailjs.init("user_WLhGZxEwDdPvuoMHqBmQh");
                 })();
         </script>
+        <!-- Inline JS for Google Maps API -->
+        <script>
+             function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 3,
+    center: { lat: 40.1209, lng: 9.0129 },
+  });
+}
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACCfGO6_KK1MNl1FuAJsISDwlPlhy-X0o&callback=initMap&libraries=&v=weekly" async></script>
+        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     </body>
 </html>

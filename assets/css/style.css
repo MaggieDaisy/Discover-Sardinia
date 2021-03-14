@@ -357,6 +357,13 @@ nav ul li.nav-btn:hover.show::before {
     border: #0b2c5c solid 1px;
 }
 
+div#map {
+    min-height: 420px;
+    width: 100%;
+    border: #0b2c5c solid 5px;
+    border-radius: 15px;
+}
+
 /*-- Contact Section --*/
 /*-- Credit - Code inspiration borrowed from "Responsive Form on top of Responsive Image - Bootstrap" documentation by Stack Overflow - https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap --*/
 #contact-page {
