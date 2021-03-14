@@ -150,21 +150,36 @@ nav ul li.nav-btn:hover.show::before {
 /*-- HOME Section - Background slider --*/
 /*-- Credit - Code inspiration borrowed from "Carousel Slider Bootstrap 5 | Slider Carousel" Tutorial by Adrian Twarog - https://www.youtube.com/watch?v=ku_97a6Bgkg --*/
 .carousel-item {
-    height: 42rem;
+    height: 92vh;
     background: #0b2c5c;
-    color: #ebe6e4;
-    font-weight: 900;
+    color:#fafafa;
     position: relative;
     text-align: center;
     padding-top: 50px;
 }
 
+.carousel-item h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.carousel-item p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .container {
     position: absolute;
-    bottom: 0;
+    bottom: 18px;
     left: 0;
     right: 0;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #0b2c5c;
+    opacity: 0.8;
+    width: 28rem;
+    height: 7rem;
+    border-radius: 15px;
 }
 
 .overlay-image {
@@ -172,10 +187,26 @@ nav ul li.nav-btn:hover.show::before {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 70px;
+    top: 72px;
     background-position: center center;
     background-size: cover;
 }
+
+/*-- Responsive rules for Background slider --*/
+@media all and (max-width: 900px) {
+    .container {
+        width: 21rem;
+        height: 6rem;
+    }
+    .carousel-item h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+    .carousel-item p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+}    
 
 /*-- About Section --*/
 #about-page {
@@ -184,6 +215,29 @@ nav ul li.nav-btn:hover.show::before {
 
 #about-page img {
     border-radius: 15px;
+}
+
+.go-to a {
+    text-decoration: none;
+}
+
+.go-to {
+    border-radius: 15px;
+    display: block;
+    width: 150px;
+    background-color: #0b2c5c;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    color: #ebe6e4;
+    font-size: 1rem;
+    justify-items: center;
+}
+
+.go-to:hover {
+    background-color: #2aacb6;
+    transition: 1s;
+    color: #0b2c5c;
+    border: #0b2c5c solid 1px;
 }
 
 /*-- TRIPS Section --*/
