@@ -98,12 +98,6 @@ nav ul li.nav-btn {
     padding-right: 10px;
 }
 
-nav ul li.nav-btn:hover.show::before {
-    content: "\f00d";
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-}
-
 /*-- Responsive rules for Navigation Bar --*/
 @media all and (max-width: 900px) {
     nav {

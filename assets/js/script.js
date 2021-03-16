@@ -2,8 +2,8 @@
 // Credit - Code inspiration borrowed from "Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox" Tutorial by CodingNepal- https://www.youtube.com/watch?v=mbDNrvKLAGM
 $(document).ready(function(){
 $('.nav-btn').click(function(){
-    $('.nav-link').toggleClass("hide");
-    $('ul li').toggleClass("show");
+    $('.nav-link').toggleClass("show");
+    $('ul li').toggleClass("hide");
 });
 });
 
