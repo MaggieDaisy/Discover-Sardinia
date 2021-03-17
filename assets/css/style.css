@@ -205,6 +205,8 @@ nav ul li.nav-btn {
 /*-- About Section --*/
 #about-page {
     background: #64b3b7;
+    font-size: 0.9rem;
+    letter-spacing: 0.5mm;
 }
 
 #about-page img {
@@ -352,8 +354,12 @@ a.go-to {
     border: #0b2c5c solid 1px;
 }
 
+#attractions-page img {
+    border-radius: 15px;
+}
+
 div#map {
-    min-height: 420px;
+    min-height: 450px;
     width: 100%;
     border: #0b2c5c solid 5px;
     border-radius: 15px;
