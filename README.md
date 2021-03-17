@@ -24,7 +24,7 @@ This project was created to demonstrate the acquisition of broader coding skills
 
 Discover Sardinia is an interactive guide of the Italian island located in the central part of the Mediterranean. The purpose of this guide is to demonstrate the tourist attractions offered by the island. This guide can benefit both tourists arriving from other places and the local population. The website offers brief practical and historical information about the island, as well as a local excursion package, maps with key places to see, and a contact form to request an individual offer or other sorts of information. This application is an alternative to large commercial travel agencies and extensive paper guides. Discover Sardinia is a fictional organization, a small travel operator, created for this project with purely scientific purposes. The crew of Discover Sardinia is residents, passionate about active leisure, as well as the history and culture of the island. They have direct access to local attractions, guides, transports, databases, accommodation, and other useful information needed during the trip. Therefore, they can design a trip tailored to the individual needs of tourists. This website is designed in such a way that the user can check it at any time, on the phone on the road, or at home on the computer. The project may be expanded in the future with other, more detailed sections.
 
-<img src="assets/images/AIR.jg" style="margin: 0;">
+<img src="assets/images/AIR.jpg" style="margin: 0;">
 
 # 2. UXD – User Experience Design
 
@@ -155,7 +155,7 @@ Other design choices used during developing process
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
 **This is an interactive front-end web application developed and implemented by using HTML, CSS and JavaScript with additional Bootstrap and jQuery elements**, so required testing was conducted on the basis of visual effects, website layout and interactive actions which user can take it during navigation.
 
-_**General testing results:**_ --> You can find here --- link !!!!!! to other file tests.md 
+_**General testing results:**_ --> You can find [here](tests.md)
 
 coming ...
 
