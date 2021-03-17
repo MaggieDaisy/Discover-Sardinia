@@ -146,7 +146,7 @@ nav ul li.nav-btn {
 .carousel-item {
     height: 92vh;
     background: #0b2c5c;
-    color:#fafafa;
+    color: #fafafa;
     position: relative;
     text-align: center;
     padding-top: 50px;
@@ -193,14 +193,14 @@ nav ul li.nav-btn {
         height: 6rem;
     }
     .carousel-item h3 {
-    font-size: 1.3rem;
-    font-weight: 600;
-}
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
     .carousel-item p {
-    font-size: 1rem;
-    font-weight: 600;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 }
-}    
 
 /*-- About Section --*/
 #about-page {
@@ -223,7 +223,7 @@ a.go-to {
     width: 120px;
     background-color: #0b2c5c;
     padding: 0.5rem 0.5rem;
-    border:#ebe6e4 solid 2px;
+    border: #ebe6e4 solid 2px;
     color: #ebe6e4;
     font-size: 1rem;
     justify-items: center;

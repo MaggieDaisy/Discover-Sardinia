@@ -71,14 +71,14 @@ The structure of the application is based on meeting the first needs of the pote
 * About – Page with practical and historical information and gallery
 * Trips – Showcase of three local trips and gallery
 * Attractions – Showcase of attraction and their locations
-* Contact – Form to send request 
+* Contact – Form to send request and subscribe
 * Footer – fixed footer with social media icons 
 
 ### **Surface**
 
 The visual experience of this project reflects the theme of happy vacation, spending active and relaxing time by sightseeing and exploring the island
 
-* Colors
+* Colors
 
 A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as blue light and blue dark as well as creamy-sandy beige to create visual contrast between elements and sections. 
 
@@ -86,17 +86,13 @@ Also, two more shades of colors were picked, turquoise and emerald, for ho
 
 <img src="assets/docs/color_palette.jpg" style="margin: 0;">
 
-* Typography
+* Typography
 
 Font **'Lato'** was used for the clean, modern, and transparent experience for the whole body content. Selected from google fonts after recommendations other users that this specific font is good for clear readability and professional layout of travel projects
 
-* Images
+* Images
 
 The selection of images has been made to present nature, landscapes, architecture, folklore, and the history of the Island. Image presentation shows to potential tourists the attractive places to visit and the entire beauty of this fairy place.
-
-* Design
-
-Other design choices used during developing process
 
 # 3. Features
 
@@ -105,12 +101,13 @@ Other design choices used during developing process
 * A fixed-top navbar allows user-easy and intuitive navigation
 * A Home landing page shows a selection of hero images with the possibility to navigate to right and left direction
 * An About section contains moving gallery presentation and written content
-* A Trips section presents 3 choices of trips and click buttons to display each option
-* An Attractions section contains click buttons for chosen attractions and displays them on the map 
-* Contact form with a possibility to write and send the actual message 
+* A Trips section presents 3 choices of trips and clicks buttons to display each option
+* An Attractions section contains information about top places to visit and displays them on the map 
+* Contact form with a possibility to write and send the actual message, and possibility to subscribe to the newsletter 
 * A fixed-bottom footer allows to user clever access to social media
 
 ### Features left to implement when skills developed
+* Design interactive buttons to display each group of attractions separately, divided into different sections so that the maps do not seem so crowded
 * Enlarge the page with additional sections, more trips choices, and content for alternative attractions, once time stretch is allowing 
 * Built a real travel agency web page with a system for booking/reservation, once skills develop in future
 * Link to real Social Media which represents the activity of tour operator, once company for cooperation exist and show a willingness to that
@@ -147,9 +144,10 @@ Other design choices used during developing process
 * [**Bootstrap Essentials**](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) - Page developed by Anna Greaves - was used as a source for a better understanding of the grid system.
 * [**Grammarly**](https://app.grammarly.com/) - a comprehensive writing tool was used as a helper to write clear and correct text.
 * [**iColorpalette**](https://icolorpalette.com/) - has been used as a color picker to create a layout on the Website.
-* [**GIMP**](https://www.gimp.org/) - GNU Image Manipulation Program (GIMP) has been used as free & open source image editor to create a logo of the Web
-* **Microsoft Paint** - a simple raster graphics editor has been used for editing and resizing pictures. 
-
+* [**GIMP**](https://www.gimp.org/) - GNU Image Manipulation Program (GIMP) has been used as free & open source image editor to create a logo of the Web.
+* **Microsoft Paint** - a simple raster graphics editor has been used for editing and resizing pictures.
+* [**FaviconeCodeGenerator**](https://www.faviconcodegenerator.com/) - Favicon Code Generator is Free Online Favicon Converter and has been used to create a little graphic image (icon) associated with a webpage.
+* [**MDN Web Docs**](https://developer.mozilla.org/) - documentation repository and learning resource for web developers has been used as a general resource.
 # 5. Testing
 
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
@@ -188,9 +186,10 @@ The first step was to create a new "Repository" named Discover Sardini
 
 * Content
 
-The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing company**, and for **educational purposes only**. Inspiration to create informative and consistent  content was borrowed from sources:
-[**1**](https://ww) and 
-[**2**](https://www)
+The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing company**, and for **educational purposes only**. Inspiration to create informative and consistent content was borrowed from following sources:
+[**Voyagetips.com**](https://www.voyagetips.com/en/things-to-do-in-sardinia/) - Best things to do in Sardinia, recomendations and useful tips for travelers
+[**Sardegna.com**](https://www.sardegna.com/) - an Alpitour company specialised in holidays in Sardinia
+[**WonderfulSardinia.com**](https://www.wonderfulsardinia.com/) - is a destination and booking portal dedicated to exclusive holidays in Sardinia.
 
 * Media
 
@@ -210,7 +209,7 @@ To create a logo I borrowed first flag template and developed further in GIMP:
 - Code inspiration for gallery effects in About and Trips section borrowed from -  
 - Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
 - Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
-- Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "   "
+- Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "Adding The Map Element (Bootstrap 4)" and [**Google Maps JavaScript API Tutorial" by Traversy Media(https://www.youtube.com/watch?v=Zxf1mnP5zcw)**]
 
 # 10. Acknowledgments
 
