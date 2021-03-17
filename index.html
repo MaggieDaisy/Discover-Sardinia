@@ -214,7 +214,7 @@
                     <h4 class="text-center">Select one-day local trip</h4>
                 </div>
             </div>
-            <div id="wrapper">
+            <div id="trip-offer">
                 <div class="card trip-1">
                     <button id="button-trip-1">COSTA SMERALDA</button>
                     <h4 class="text-center pt-3">In brief:</h4>
@@ -324,7 +324,7 @@
             </div>
             <div class="row pb-3 pt-3">
                 <div class="col-md-6 text-center"> 
-                    <button id="attraction-button" class="my-2"><i class="fas fa-umbrella-beach"></i> <i class="fas fa-eye"></i> Attractions <i class="fas fa-hotel"></i> <i class="fas fa-cocktail"></i></button>
+                    <span><i class="fas fa-umbrella-beach"></i> <i class="fas fa-eye"></i> Attractions <i class="fas fa-hotel"></i> <i class="fas fa-cocktail"></i></span>
                     <img class="img-fluid" src="assets/images/villasimius_beach.jpg" alt="One of the most beautiful beaches located on Villasimius harbor is Spiaggia di Porto Giunco" />    
                 </div>
                 <div class="col-md-6 text-center">
@@ -360,8 +360,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center">
                     <form onsubmit="return sendMail(this);" id="responsiveForm" style="background-image: url(assets/images/cala_goloritze.jpg);">
                         <div class="form-group">
                             <label for="name">Name:</label>
@@ -374,6 +374,10 @@
                         <div class="form-group">
                             <label for="textarea">Request:</label>
                             <textarea class="form-control" rows="7" cols="50" id="textarea" name="textarea" placeholder="Please write your request here"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <label for="checkbox">Subscribe to our Newsletter</label>
+                        <input type="checkbox" id="checkbox" name="checkbox" /> Yes
                         </div>
                         <div class="form-group">
                             <input type="submit" name="submit" class="form-control btn btn-primary" value="Send!" />
@@ -408,21 +412,20 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <!-- EmailJS -->
+        <!-- Email JS -->
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <!-- External JS -->
         <script src="assets/js/script.js"></script>
         <script src="assets/js/sendemail.js"></script>
-        <!-- Inline JS for Send Email-->
+        <script src="assets/js/maps.js"></script>
+        <!-- Google Maps API -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACCfGO6_KK1MNl1FuAJsISDwlPlhy-X0o&callback=initMap&libraries=&v=weekly" async></script>
+        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script> 
+        <!-- Inline JS function for send Email JS -->
         <script>
-                (function(){
+        (function(){
                     emailjs.init("user_WLhGZxEwDdPvuoMHqBmQh");
                 })();
         </script>
-        <!-- Google Maps API -->
-        <script src="assets/js/maps.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACCfGO6_KK1MNl1FuAJsISDwlPlhy-X0o&callback=initMap&libraries=&v=weekly" async></script>
-        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-        
     </body>
 </html>

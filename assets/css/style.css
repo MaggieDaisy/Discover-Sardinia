@@ -243,7 +243,7 @@ a.go-to {
     background: #ebe6e4;
 }
 
-#wrapper {
+#trip-offer {
     box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
@@ -261,7 +261,7 @@ a.go-to {
     background-color: #5d9dbc;
 }
 
-#wrapper button {
+#trip-offer button {
     box-sizing: border-box;
     border-radius: 15px;
     display: block;
@@ -271,10 +271,10 @@ a.go-to {
     padding: 0.5rem 0.3rem;
     border: none;
     color: #ebe6e4;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
-#wrapper button:hover {
+#trip-offer button:hover {
     background-color: #2aacb6;
     transition: 1s;
     color: #0b2c5c;
@@ -283,10 +283,13 @@ a.go-to {
 
 /*-- Responsive rules for Trips Section --*/
 @media screen and (min-width: 600px) {
-    #wrapper {
+    #trip-offer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 10px;
+    }
+    #trip-offer button {
+        font-size: 1.3rem;
     }
 }
 
@@ -379,7 +382,7 @@ div#map {
     min-height: 400px;
     padding: 60px;
     margin-bottom: 50px;
-    color: #ebe6e4;
+    color: #fafafa;
     font-weight: bolder;
     font-size: 1.5rem;
 }
