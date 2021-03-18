@@ -333,7 +333,6 @@ a.go-to {
 }
 
 /*-- Attractions Section --*/
-
 #attractions-page {
     background-color: #5d9bdc;
 }
@@ -363,7 +362,7 @@ a.go-to {
 }
 
 div#map {
-    min-height: 450px;
+    min-height: 500px;
     width: 100%;
     border: #0b2c5c solid 5px;
     border-radius: 15px;
@@ -405,7 +404,7 @@ div#map {
 
 /*-- Footer --*/
 footer {
-    height: 3.9rem;
+    height: 62px;
     color: #ebe6e4;
     position: fixed;
     bottom: 0;
