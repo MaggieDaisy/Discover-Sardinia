@@ -45,20 +45,20 @@
         <!-- Home section - landing page with background slider-->
         <!-- Credit - Code inspiration borrowed from "Carousel Slider Bootstrap 5 | Slider Carousel" Tutorial by Adrian Twarog - https://www.youtube.com/watch?v=ku_97a6Bgkg -->
         <section id="home-page" class="container-fluid px-0">
-            <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="home-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#homeCarousel" data-slide-to="1"></li>
-                    <li data-target="#homeCarousel" data-slide-to="2"></li>
-                    <li data-target="#homeCarousel" data-slide-to="3"></li>
-                    <li data-target="#homeCarousel" data-slide-to="4"></li>
-                    <li data-target="#homeCarousel" data-slide-to="5"></li>
-                    <li data-target="#homeCarousel" data-slide-to="6"></li>
-                    <li data-target="#homeCarousel" data-slide-to="7"></li>
-                    <li data-target="#homeCarousel" data-slide-to="8"></li>
+                    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#home-carousel" data-slide-to="1"></li>
+                    <li data-target="#home-carousel" data-slide-to="2"></li>
+                    <li data-target="#home-carousel" data-slide-to="3"></li>
+                    <li data-target="#home-carousel" data-slide-to="4"></li>
+                    <li data-target="#home-carousel" data-slide-to="5"></li>
+                    <li data-target="#home-carousel" data-slide-to="6"></li>
+                    <li data-target="#home-carousel" data-slide-to="7"></li>
+                    <li data-target="#home-carousel" data-slide-to="8"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_goloritze.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/sartiglia_oristano.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/flamingo_lake.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/cala_burroni.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/nuraghe_losa.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/streetart_orgosolo.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/village_sunrise.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/castel_sardo.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-interval="2000">
                         <div class="overlay-image" style="background-image: url(assets/images/carousel/wild_nature.jpg);">
                             <div class="container">
                                 <h3>Discover Sardinia - Fairy Island</h3>
@@ -131,11 +131,11 @@
                         </div>
                     </div>
                 </div>
-                <a href="#homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <a href="#home-carousel" class="carousel-control-prev" role="button" data-slide="prev">
                     <span class="sr-only">Previous</span>
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 </a>
-                <a href="#homeCarousel" class="carousel-control-next" role="button" data-slide="prev">
+                <a href="#home-carousel" class="carousel-control-next" role="button" data-slide="prev">
                     <span class="sr-only">Next</span>
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
@@ -351,43 +351,43 @@
                 <div id="img-slide">
                     <!-- Line 1-->
                     <div class="row g-0 img-row">
-                        <img src="assets/images/gallery/abatax_redcliff.jpg" alt="" />
-                        <img src="assets/images/gallery/woman_folklore.jpg" alt="" />
-                        <img src="assets/images/gallery/alghero_seafood.jpg" alt="" />
-                        <img src="assets/images/gallery/vintage_bar.jpg" alt="" />
-                        <img src="assets/images/gallery/ballao_bluedoor.jpg" alt="" />
-                        <img src="assets/images/gallery/villasimius_beach.jpg" alt="" />
-                        <img src="assets/images/gallery/mural_donkey.jpg" alt="" />
-                        <img src="assets/images/gallery/vespa_gang.jpg" alt="" />
-                        <img src="assets/images/gallery/cairn_sardinia.jpg" alt="" />
-                        <img src="assets/images/gallery/tower_castelsardo.jpg" alt="" />
-                        <img src="assets/images/gallery/parasol_beach.jpg" alt="" />
+                        <img src="assets/images/gallery/abatax_redcliff.jpg" alt="The magnificent Red Rocks of Arbatax" />
+                        <img src="assets/images/gallery/woman_folklore.jpg" alt="Woman representing folclore at Carnival Festival Sa Sartiglia in Oristano" />
+                        <img src="assets/images/gallery/alghero_seafood.jpg" alt="Seafood on the fresh fish market in Alghero" />
+                        <img src="assets/images/gallery/vintage_bar.jpg" alt="Due Archi Il mio vintage bar in Nuoro" />
+                        <img src="assets/images/gallery/ballao_bluedoor.jpg" alt="Historical infrastructure in village Ballao" />
+                        <img src="assets/images/gallery/villasimius_beach.jpg" alt="Sensational beach of the traditional and coastal village Villasimius." />
+                        <img src="assets/images/gallery/mural_donkey.jpg" alt="Famous Murals of Orgosolo" />
+                        <img src="assets/images/gallery/vespa_gang.jpg" alt="Young people during event Vespa Sardinia Tour" />
+                        <img src="assets/images/gallery/cairn_sardinia.jpg" alt="The coastal town of Alghero with mysterious cairns" />
+                        <img src="assets/images/gallery/tower_castelsardo.jpg" alt="Cathedral tower of Castelsardo" />
+                        <img src="assets/images/gallery/parasol_beach.jpg" alt="Lonely beach umbrella in the sand" />
                     </div>
                     <!-- Line 2-->
                     <div class="row g-0 img-row">
-                        <img src="assets/images/gallery/cala_gonone.jpg" alt="" />
-                        <img src="assets/images/gallery/tower_cagliari.jpg" alt="" />
-                        <img src="assets/images/gallery/castelsardo_panorama.jpg" alt="" />
-                        <img src="assets/images/gallery/sunset_dusk.jpg" alt="" />
-                        <img src="assets/images/gallery/coast_sea.jpg" alt="" />
-                        <img src="assets/images/gallery/shell_jewelery.jpg" alt="" />
-                        <img src="assets/images/gallery/coctail_hotel.jpg" alt="" />
-                        <img src="assets/images/gallery/sarlog.jpg" alt="" />
-                        <img src="assets/images/gallery/dessert_alimentari.jpg" alt="" />
-                        <img src="assets/images/gallery/man_folklore.jpg" alt="" />
+                        <img src="assets/images/gallery/cala_gonone.jpg" alt="Cala Gonone one of the best beaches to see on island" />
+                        <img src="assets/images/gallery/tower_cagliari.jpg" alt="The Torre di San Pancrazio, a medieval tower in Cagliari" />
+                        <img src="assets/images/gallery/castelsardo_panorama.jpg" alt="Panorama of Castelsardo" />
+                        <img src="assets/images/gallery/sunset_dusk.jpg" alt="Sardinian sunset on one of the most beautiful beaches" />
+                        <img src="assets/images/gallery/coast_sea.jpg" alt="Landscape of coastal sea" />
+                        <img src="assets/images/gallery/shell_jewelery.jpg" alt="Souvenirs on local market" />
+                        <img src="assets/images/gallery/coctail_hotel.jpg" alt="Beverages served at the hotel restaurant" />
+                        <img src="assets/images/gallery/sarlog.jpg" alt="Log of this website, Sradinian flag" />
+                        <img src="assets/images/gallery/dessert_alimentari.jpg" alt="Traditional italian cookies on Alimentari Gourmet Market" />
+                        <img src="assets/images/gallery/man_folklore.jpg" alt="Man representing folclore at Carnival Festival Sa Sartiglia in Oristano" />
                     </div>
                     <!-- Line 3-->
                     <div class="row g-0 img-row">
-                        <img src="assets/images/gallery/ferragosto_sea.jpg" alt="" />
-                        <img src="assets/images/gallery/rena_majore.jpg" alt="" />
-                        <img src="assets/images/gallery/flags_onboat.jpg" alt="" />
-                        <img src="assets/images/gallery/pula_house.jpg" alt="" />
-                        <img src="assets/images/gallery/folklore_cagliari.jpg" alt="" />
-                        <img src="assets/images/gallery/pink_fiat500.jpg" alt="" />
-                        <img src="assets/images/gallery/nature_field.jpg" alt="" />
-                        <img src="assets/images/gallery/cagliari_oldtown.jpg" alt="" />
-                        <img src="assets/images/gallery/mountain_goat.jpg" alt="" />
-                        <img src="assets/images/gallery/sail_boat.jpg" alt="" />
+                        <img src="assets/images/gallery/ferragosto_sea.jpg" alt="Sea view with coast and boats during Ferragosto, Italian holidays at midsummer" />
+                        <img src="assets/images/gallery/rena_majore.jpg" alt="Spiaggia Rena Majore, a small seaside village with beautiful beaches" />
+                        <img src="assets/images/gallery/flags_onboat.jpg" alt="Flag of Sardinia and Flag of Italy on the boat" />
+                        <img src="assets/images/gallery/pula_house.jpg" alt="Umbrellas Street in Pula" />
+                        <img src="assets/images/gallery/folklore_cagliari.jpg" alt="Folclore at Carnival Festival Sa Sartiglia in Oristano" />
+                        <img src="assets/images/gallery/pink_fiat500.jpg" alt="Classic Fiat500 in rental car for italian vacations" />
+                        <img src="assets/images/gallery/nature_field.jpg" alt="Natural vegetation on the Sardinian coast" />
+                        <img src="assets/images/gallery/cagliari_oldtown.jpg" alt="Old town in Cagliari the capital city" />
+                        <img src="assets/images/gallery/mountain_goat.jpg" alt="Sarda, an indigenous breed of domestic goat from Sardinia" />
+                        <img src="assets/images/gallery/sail_boat.jpg" alt="Sailing boats on the beach" />
                     </div>
                 </div>
             </div>
