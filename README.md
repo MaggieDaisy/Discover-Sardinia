@@ -232,7 +232,7 @@ To create a logo I borrowed first flag template and developed further in GIMP:
 
 - Code inspiration for responsive and interactive navigation bar borrowed from - [**Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox - Tutorial by CodingNepal**](https://www.youtube.com/watch?v=mbDNrvKLAGM)
 - Code inspiration for background slider on the landing Home page borrowed from - [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
-- Code inspiration for gallery effects in About and Trips section borrowed from -  
+- Code inspiration for gallery effects in About and Trips section borrowed from -  [**Dublin Unlocked - Project for CI by Shane Keran**](https://shanekeran.github.io/dublin-unlocked/)
 - Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
 - Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
 - Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "Adding The Map Element (Bootstrap 4)" and [**Google Maps JavaScript API Tutorial" by Traversy Media**](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
