@@ -1,4 +1,4 @@
-<img src="assets/images/collage_flag.png" style="margin: 0;">
+<img src="assets/images/collage_flag.jpg" style="margin: 0;">
 
 # Discover Sardinia - Fairy Island 
 
@@ -24,7 +24,7 @@ This project was created to demonstrate the acquisition of broader coding skills
 
 Discover Sardinia is an interactive guide of the Italian island located in the central part of the Mediterranean. The purpose of this guide is to demonstrate the tourist attractions offered by the island. This guide can benefit both tourists arriving from other places and the local population. The website offers brief practical and historical information about the island, as well as a local excursion package, maps with key places to see, and a contact form to request an individual offer or other sorts of information. This application is an alternative to large commercial travel agencies and extensive paper guides. Discover Sardinia is a fictional organization, a small travel operator, created for this project with purely scientific purposes. The crew of Discover Sardinia is residents, passionate about active leisure, as well as the history and culture of the island. They have direct access to local attractions, guides, transports, databases, accommodation, and other useful information needed during the trip. Therefore, they can design a trip tailored to the individual needs of tourists. This website is designed in such a way that the user can check it at any time, on the phone on the road, or at home on the computer. The project may be expanded in the future with other, more detailed sections.
 
-<img src="assets/images/AIR.jpg" style="margin: 0;">
+<img src="assets/docs/AIR.jpg" style="margin: 0;">
 
 # 2. UXD – User Experience Design
 
@@ -110,7 +110,7 @@ The selection of images has been made to present nature, landscapes, ar
 * A fixed-bottom footer allows to user clever access to social media
 
 ### Features left to implement when skills developed
-* Design interactive buttons to display each group of attractions separately, divided into different sections so that the maps do not seem so crowded
+* Design interactive buttons with dropdown effect to display each group of attractions separately, divided into different sections so that the maps do not seem so crowded
 * Enlarge the page with additional sections, more trips choices, and content for alternative attractions, once time stretch is allowing 
 * Built a real travel agency web page with a system for booking/reservation, once skills develop in future
 * Link to real Social Media which represents the activity of tour operator, once company for cooperation exist and show a willingness to that
@@ -142,7 +142,7 @@ The selection of images has been made to present nature, landscapes, ar
 * [**W3C Markup Validation Service**](https://validator.w3.org/) - validator was used to check the markup validity of content in HTML and CSS.
 * [**JSHint**](https://jshint.com/) - was used as tool that helps to detect errors and potential problems in JavaScript code.
 * [**Closing Tag Checker for HTML5**](https://www.aliciaramirez.com/closing-tags-checker/) - was used to validate if all tags are open and close correctly.
-* [**HTML and CSS Formatter**](https://webformatter.com/html) - was used to beautify code.
+* [**HTML and CSS and JS Formatter**](https://webformatter.com/html) - was used to beautify code.
 * [**MS2 Lead Call**](http://bit.ly/ms2_call_aukje) - Zoom session about planning Milestone Project 2, recorded and posted on Slack by Aukje van der Val  - was used to structure planning steps for this project.
 * [**Bootstrap Essentials**](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) - Page developed by Anna Greaves - was used as a source for a better understanding of the grid system.
 * [**Grammarly**](https://app.grammarly.com/) - a comprehensive writing tool was used as a helper to write clear and correct text.
@@ -170,7 +170,7 @@ The final result of this project is a front-end web application based
 
 # 6. Project barriers and solutions
 
-- During the first steps of development of this page white space was shown up on the right side of the sections page when the background was planned to extend for the full width of the page. This was resolve by adding solution code found on the Stack Overflow page to include in CSS stylesheet 
+- During the first steps of development of this page white space was shown up on the right side of the sections page when the background was planned to extend for the full width of the page. This was resolve by adding solution code found on the Stack Overflow page to include in the CSS stylesheet 
 ```
 .container-fluid{
   padding-left: 0rem;
@@ -178,18 +178,36 @@ The final result of this project is a front-end web application based
   overflow: hidden;
 }
 ```
-- After filling up the contact form and submitting it for sending, I found that all data are still there after button action, so I provided a simple function in sendemail.js file for clearing user information right after clicking send button
+- After filling up the contact form and submitting it for sending, I found that all data user info is still there after button action, so I provided a simple function in the sendemail.js file for clearing user information right after clicking send button
 ```
 document.getElementById("responsiveForm").reset();
 ```
-- After checking the application in console developer tools I was running very often, not always with favicon.ico error 404. This was resolve by providing a link in HTML head tag and icon for this website. 
-- I wanted to try a new solution and provide an icon for closing the navigation toggle button in CSS, but unfortunately, the type of icon I choose wasn't available for Font Awesome free selection. I resolve this by deleting it because it was displaying as an empty square next to the existing icon. In my opinion, it would, in general, create a little messy layout also even if it would work, so I decided to leave this as a feature to implement again later in the future.
-- I ran out to several issues if about Google Maps API. I wanted to create maps with clusters so the general view of the small island is clear and markers do not look crowded on this tiny area, but at the same time, I wanted to provide markers with titles, but the skill level,  and running out of the time, limited me with combining this two solutions together, so  I had to make a choice what is gonna be more useful for users. I decided to go with maps that will provide info windows about attractions instead of providing maps clusters with labels. I am living this feature to implement in the future. 
+- After checking the application in console developer tools I was running very often for favicon.ico error 404. This was resolve by providing a link in the HTML head tag and generate an icon for this website.
+
+<img src="assets/docs/fav_icon.jpg" style="margin: 0;">
+
+- For this project, a new solution was tried by including an icon for closing the navigation toggle button in CSS, but unfortunately, the type of icon I choose wasn't available for Font Awesome free selection `\f00d`. It was resolved by deleting it because it was displaying as an empty square next to the existing icon for the navigation menu. In my opinion, it would, in general, create a little messy layout also even if it would work properly, so I decided to leave this as a feature to implement again later in the future.
+
+<img src="assets/docs/noicon_nav.jpg" style="margin: 0;">
+
+- Providing Google Maps window caused several issues during development. I wanted to create maps with clusters so the general view of the small island is clear and markers do not look crowded and overwhelming on this tiny area.  At the same time, I wanted to provide markers with titles, but the skill level, documentation,  and running out of time, limited me with combining these two solutions. I had to choose what is gonna be more useful for users' experience. I decided to go with maps that will provide info windows about attractions instead of providing maps clusters with just empty markers. I am living this as the biggest project barrier and feature to implement in the future. 
+
+<img src="assets/docs/cluster_vs_title.jpg" style="margin: 0;">
+
+- Another issue during development was that Google Maps window did not display all the time when the page was refreshed. The behavior of this feature was very unexpected, there were hours when this window was visible on deployed git hub pages and at local working space on git pod but for example not on live mobile phone or iPad. Then for another hour, the window was again popping up. The dev tools console shown an error and were pointing to the exact error with API credentials. I tried to resolve it and adjust proper 'urls' to the project in the Google Cloud Platform for accessing API services, but this did not work properly. To display Google Maps in the end I just resign from limitations at the cloud console and I allowed it to work anywhere without restrictions. 
+
+<img src="assets/docs/gm_apierror.jpg" style="margin: 0;">
+
+- Unsolved bug: Bugs appearing in console warn about lack of passive event listeners. I never experience this issue before, so I asked for help further but unfortunately, I did not receive any tips on time to adjust any solution. I searched myself for information on how to overcome this issue but none of sources worked for me. 
+
+(https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md), (https://web.dev/uses-passive-event-listeners/?utm_source=lighthouse&utm_medium=devtools), (https://www.youtube.com/watch?v=6-D_3yx_KVI)
+
+<img src="assets/docs/event_lis.jpg" style="margin: 0;">
 
 # 7. Version Control
 
 **Git** - free and open-source distributed **Version Control System** was used to show tracking all changes during the coding process. 
-Git add, Git commit, Git push commands were used to approve and store files in the repository. 
+`Git add`, `Git commit`, `Git push` commands were used to approve and store files in the repository. 
 
 # 8. Deployment
 
@@ -234,8 +252,8 @@ To create a logo I borrowed first flag template and developed further in GIMP:
 - Code inspiration for background slider on the landing Home page borrowed from - [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
 - Code inspiration for gallery effects in About and Trips section borrowed from -  [**Dublin Unlocked - Project for CI by Shane Keran**](https://shanekeran.github.io/dublin-unlocked/)
 - Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
-- Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
 - Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "Adding The Map Element (Bootstrap 4)" and [**Google Maps JavaScript API Tutorial" by Traversy Media**](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
+- Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
 
 # 10. Acknowledgments
 
