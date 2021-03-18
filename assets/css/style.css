@@ -7,6 +7,7 @@
     font-family: "Lato", sans-serif;
 }
 
+/*-- Credit - Code snippet from Stack Overflow - https://stackoverflow.com/questions/34828198/container-fluid-leaving-blank-space/34831390 --*/
 .container-fluid {
     padding-left: 0rem;
     padding-right: 0rem;

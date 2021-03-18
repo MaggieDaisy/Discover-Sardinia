@@ -78,19 +78,22 @@ The structure of the application is based on meeting the first needs of the pote
 
 The visual experience of this project reflects the theme of happy vacation, spending active and relaxing time by sightseeing and exploring the island
 
-* Colors
+> Colors
 
-A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as blue light and blue dark as well as creamy-sandy beige to create visual contrast between elements and sections. 
+A blend of colors is bright and clean, reflecting the colors of seawater and relaxing atmosphere during a sunny day. Throughout the whole project were used two main color shades such as 
+- light blue and dark blue
+- as well as creamy-sandy beige 
+to create visual contrast between elements and sections. 
 
-Also, two more shades of colors were picked, turquoise and emerald, for hover active elements like buttons, social media icons, active links, and some background colors.
+- Also, two more shades of colors were picked, turquoise and emerald, for hover active elements like buttons, social media icons, active links, and some background colors.
 
 <img src="assets/docs/color_palette.jpg" style="margin: 0;">
 
-* Typography
+> Typography
 
-Font **'Lato'** was used for the clean, modern, and transparent experience for the whole body content. Selected from google fonts after recommendations other users that this specific font is good for clear readability and professional layout of travel projects
+- Font **'Lato'** was used for the clean, modern, and transparent experience for the whole body content. Selected from google fonts after recommendations other users that this specific font is good for clear readability and professional layout of travel projects
 
-* Images
+> Images
 
 The selection of images has been made to present nature, landscapes, architecture, folklore, and the history of the Island. Image presentation shows to potential tourists the attractive places to visit and the entire beauty of this fairy place.
 
@@ -148,22 +151,44 @@ The selection of images has been made to present nature, landscapes, ar
 * **Microsoft Paint** - a simple raster graphics editor has been used for editing and resizing pictures.
 * [**FaviconeCodeGenerator**](https://www.faviconcodegenerator.com/) - Favicon Code Generator is Free Online Favicon Converter and has been used to create a little graphic image (icon) associated with a webpage.
 * [**MDN Web Docs**](https://developer.mozilla.org/) - documentation repository and learning resource for web developers has been used as a general resource.
+
 # 5. Testing
 
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
 **This is an interactive front-end web application developed and implemented by using HTML, CSS and JavaScript with additional Bootstrap and jQuery elements**, so required testing was conducted on the basis of visual effects, website layout and interactive actions which user can take it during navigation.
 
-_**General testing results:**_ --> You can find [here](tests.md)
+**General manual and further testing results:** ---> please click [here](tests.md)
 
-coming ...
+> Answering to a user story needs: 
+
+- Tests made on the top located navigation bar shown that every person visiting the site will be able to navigate very easily between sections to find pieces of information. Clickable links are bringing the user to different sections. The navigation bar with active links is available all the time on top of the page, so it is easy to switch and back to desirable content.
+- Tests made on the separate sections shown that users will be able to learn about the attractions of the island and services provided by the small local travel company. Additionally, tests performed on trip buttons allow the user to be familiar with possible travel options proposed by the company, and a short-cut button with icons from the About section brings the user directly to the attractions section.  
+- Tests made on a contact form allows user to send the real and direct email via an application,  send a request for preparation individual offer and subscribe to the newsletter. The choice was given to the user, is possible to use all these options.
+- Tests made on the About, Trips, and Attractions section allows user to find historical and practical information about attractions and successfully view them o the map.
+- Tests made on footers social media icons allows user to find visible and easy access to social media. Icons are visible all the time during searching through the application. Clickable links are giving the user possibility to observe and join the local community.
+- Tests made on different screen sizes show that the application is responsive, so the user can look at the page on different devices.
 
 # 6. Project barriers and solutions
 
-coming ...
+- During the first steps of development of this page white space was shown up on the right side of the sections page when the background was planned to extend for the full width of the page. This was resolve by adding solution code found on the Stack Overflow page to include in CSS stylesheet 
+```
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+```
+- After filling up the contact form and submitting it for sending, I found that all data are still there after button action, so I provided a simple function in sendemail.js file for clearing user information right after clicking send button
+```
+document.getElementById("responsiveForm").reset();
+```
+- After checking the application in console developer tools I was running very often, not always with favicon.ico error 404. This was resolve by providing a link in HTML head tag and icon for this website. 
+- I wanted to try a new solution and provide an icon for closing the navigation toggle button in CSS, but unfortunately, the type of icon I choose wasn't available for Font Awesome free selection. I resolve this by deleting it because it was displaying as an empty square next to the existing icon. In my opinion, it would, in general, create a little messy layout also even if it would work, so I decided to leave this as a feature to implement again later in the future.
+- I ran out to several issues if about Google Maps API. I wanted to create maps with clusters so the general view of the small island is clear and markers do not look crowded on this tiny area, but at the same time, I wanted to provide markers with titles, but the skill level,  and running out of the time, limited me with combining this two solutions together, so  I had to make a choice what is gonna be more useful for users. I decided to go with maps that will provide info windows about attractions instead of providing maps clusters with labels. I am living this feature to implement in the future. 
 
 # 7. Version Control
 
-**Git** - free and open-source distributed **Version Control System** was used to show tracking all changes during the coding process. 
+**Git** - free and open-source distributed **Version Control System** was used to show tracking all changes during the coding process. 
 Git add, Git commit, Git push commands were used to approve and store files in the repository. 
 
 # 8. Deployment
@@ -184,14 +209,14 @@ The first step was to create a new "Repository" named Discover Sardini
 
 # 9. Credits
 
-* Content
+> Content
 
 The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing company**, and for **educational purposes only**. Inspiration to create informative and consistent content was borrowed from following sources:
-[**Voyagetips.com**](https://www.voyagetips.com/en/things-to-do-in-sardinia/) - Best things to do in Sardinia, recomendations and useful tips for travelers
-[**Sardegna.com**](https://www.sardegna.com/) - an Alpitour company specialised in holidays in Sardinia
-[**WonderfulSardinia.com**](https://www.wonderfulsardinia.com/) - is a destination and booking portal dedicated to exclusive holidays in Sardinia.
+- [**Voyagetips.com**](https://www.voyagetips.com/en/things-to-do-in-sardinia/) - Best things to do in Sardinia, recomendations and useful tips for travelers
+- [**Sardegna.com**](https://www.sardegna.com/) - an Alpitour company specialised in holidays in Sardinia
+- [**WonderfulSardinia.com**](https://www.wonderfulsardinia.com/) - is a destination and booking portal dedicated to exclusive holidays in Sardinia.
 
-* Media
+> Media
 
 All the images used in this site were picked from:
 
@@ -203,13 +228,14 @@ To create a logo I borrowed first flag template and developed further in GIMP:
 
 - [**FAVPNG**](https://favpng.com/png_view/charles-albert-of-sardinia-flag-of-sardinia-regions-of-italy-sardinian-people-png/1aQdepzq) - a database of free transparent PNG Images 
 
-* Code
+> Code
+
 - Code inspiration for responsive and interactive navigation bar borrowed from - [**Responsive Navigation Menu Bar with HTML CSS & Javascript | CSS Flexbox - Tutorial by CodingNepal**](https://www.youtube.com/watch?v=mbDNrvKLAGM)
-- Code inspiration for background slider on the landing Home page borrowed from- [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
+- Code inspiration for background slider on the landing Home page borrowed from - [**Carousel Slider Bootstrap 5 | Slider Carousel - Tutorial by Adrian Twarog**](https://www.youtube.com/watch?v=ku_97a6Bgkg)
 - Code inspiration for gallery effects in About and Trips section borrowed from -  
 - Code inspiration for buttons in a Trips section borrowed from - [**JQuery Effects - Challenge 3" - Course by Code Institute**](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/cb6592e199ef45d5a3db4cf83691b70f/?child=first)
 - Code inspiration for send email js borrowed from - CI course content walkthrough "Connecting To The EmailJS Service Using Their SDK"
-- Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "Adding The Map Element (Bootstrap 4)" and [**Google Maps JavaScript API Tutorial" by Traversy Media(https://www.youtube.com/watch?v=Zxf1mnP5zcw)**]
+- Code inspiration for map locations of attractions borrowed from - CI course content walkthrough "Adding The Map Element (Bootstrap 4)" and [**Google Maps JavaScript API Tutorial" by Traversy Media**](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 
 # 10. Acknowledgments
 
