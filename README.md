@@ -200,7 +200,9 @@ document.getElementById("responsiveForm").reset();
 
 - Unsolved bug: Bugs appearing in console warn about lack of passive event listeners. I never experience this issue before, so I asked for help further but unfortunately, I did not receive any tips on time to adjust any solution. I searched myself for information on how to overcome this issue but none of sources worked for me. 
 
-(https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md), (https://web.dev/uses-passive-event-listeners/?utm_source=lighthouse&utm_medium=devtools), (https://www.youtube.com/watch?v=6-D_3yx_KVI)
+[**GitHub**](https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md)
+[**WebDev**](https://web.dev/uses-passive-event-listeners/?utm_source=lighthouse&utm_medium=devtools)
+[**Video**](https://www.youtube.com/watch?v=6-D_3yx_KVI)
 
 <img src="assets/docs/event_lis.jpg" style="margin: 0;">
 
