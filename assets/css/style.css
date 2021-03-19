@@ -210,10 +210,6 @@ nav ul li.nav-btn {
     letter-spacing: 0.5mm;
 }
 
-#about-page img {
-    border-radius: 15px;
-}
-
 a.go-to {
     text-decoration: none;
 }
@@ -236,6 +232,45 @@ a.go-to {
     transition: 1s;
     color: #0b2c5c;
     border: #0b2c5c solid 1px;
+}
+
+/*-- Scrolling Gallery--*/
+#msc-container {
+    position: relative;
+    height: 500px;
+}
+
+#msc-slide {
+    position: relative;
+    width: max-content;
+    display: inline-block;
+}
+
+.msc-row {
+    display: block;
+    position: relative;
+    animation: linear infinite;
+    animation-name: scroll;
+    animation-duration: 30s;
+}
+
+#msc-slide img {
+    height: 160px;
+    width: auto;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+@keyframes scroll {
+    0% {
+        right: 0%;
+    }
+    50% {
+        right: 35%;
+    }
+    100% {
+        right: 0%;
+    }
 }
 
 /*-- TRIPS Section --*/
@@ -297,7 +332,7 @@ a.go-to {
 /*-- Scrolling Gallery--*/
 #img-container {
     position: relative;
-    height: 490px;
+    height: 530px;
 }
 
 #img-slide {
@@ -318,6 +353,7 @@ a.go-to {
     height: 160px;
     width: auto;
     padding: 3px;
+    border-radius: 7px;
 }
 
 @keyframes scroll {
