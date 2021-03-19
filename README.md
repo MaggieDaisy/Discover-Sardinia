@@ -67,11 +67,11 @@ The structure of the application is based on meeting the first needs of the pote
 * 1 single page with 5 different content sections and the possibility to navigate between them
 * Header – fixed navigation bar with logo and brand name
 * 5 main sections called:
-* Home – Landing page with hero sliding images
-* About – Page with practical and historical information and gallery
-* Trips – Showcase of three local trips and gallery
-* Attractions – Showcase of attraction and their locations
-* Contact – Form to send request and subscribe
+    * Home – Landing page with hero sliding images
+    * About – Page with practical and historical information and gallery
+    * Trips – Showcase of three local trips and gallery
+    * Attractions – Showcase of attraction and their locations
+    * Contact – Form to send request and subscribe
 * Footer – fixed footer with social media icons 
 
 ### **Surface**
@@ -104,13 +104,13 @@ The selection of images has been made to present nature, landscapes, ar
 * A fixed-top navbar allows user-easy and intuitive navigation
 * A Home landing page shows a selection of hero images with the possibility to navigate to right and left direction
 * An About section contains moving gallery presentation and written content
-* A Trips section presents 3 choices of trips and clicks buttons to display each option
+* A Trips section presents 3 choices of trips and clicks buttons to display each option, and also gallery
 * An Attractions section contains information about top places to visit and displays them on the map 
 * Contact form with a possibility to write and send the actual message, and possibility to subscribe to the newsletter 
 * A fixed-bottom footer allows to user clever access to social media
 
 ### Features left to implement when skills developed
-* Design interactive buttons with dropdown effect to display each group of attractions separately, divided into different sections so that the maps do not seem so crowded
+* Design interactive buttons with dropdown markers effect to display each group of attractions separately, divided into different sections so that the maps do not seem so crowded
 * Enlarge the page with additional sections, more trips choices, and content for alternative attractions, once time stretch is allowing 
 * Built a real travel agency web page with a system for booking/reservation, once skills develop in future
 * Link to real Social Media which represents the activity of tour operator, once company for cooperation exist and show a willingness to that
@@ -155,7 +155,7 @@ The selection of images has been made to present nature, landscapes, ar
 # 5. Testing
 
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
-**This is an interactive front-end web application developed and implemented by using HTML, CSS and JavaScript with additional Bootstrap and jQuery elements**, so required testing was conducted on the basis of visual effects, website layout and interactive actions which user can take it during navigation.
+**This is an interactive front-end web application developed and implemented by using HTML, CSS and JavaScript with additional Bootstrap and jQuery elements**, so required testing was conducted based on visual effects, website layout and interactive actions which user can take it during navigation.
 
 **General manual and further testing results:** ---> please click [here](tests.md)
 
@@ -259,6 +259,10 @@ To create a logo I borrowed first flag template and developed further in GIMP:
 
 # 10. Acknowledgments
 
-- Inspiration for this project was the previous career experience in the tourism department and accession to the course itself 
-- I would like to thank: Code Institute tutors for creating inspiring content for the course, Slack Community for being available and helpful every single time when needed, especially students and leaders like Aukje for constructive zoom session about how to approach MS2
-
+- Inspiration for this project was the previous career experience in the tourism department, willingness to travel in Sardinia, and accession to the CI course itself 
+- I would like to thank: 
+    - Code Institute tutors for creating inspiring content for the course, 
+    - Slack Community for being available and helpful every single time when needed, 
+    - especially students and leaders like Aukje for constructive zoom session about how to approach MS2, 
+    - and Vladimir for discussing issues about Font Awesome icons and Google Maps IPA's 
+    - and last but not least my mentor Sandeep Aggarwal for his guidance, patience, and effort during the development process
