@@ -1,4 +1,5 @@
-// Credit - Code inspiration borrowed from "Google Maps JavaScript API Tutorial" by Traversy Media - https://www.youtube.com/watch?v=Zxf1mnP5zcw
+// Credit - Code inspiration borrowed from "Google Maps JavaScript API Tutorial" by Traversy Media
+// - https://www.youtube.com/watch?v=Zxf1mnP5zcw
 
 // Initialize and add the map and create complex markers to indicate attractions of the island
 function initMap() {
@@ -10,7 +11,8 @@ function initMap() {
     //Create the map and include options
     const map = new google.maps.Map(document.getElementById("map"), options);
 
-    //Create an array of markers for attractions, store coordinates data and content to display location and title of the place
+    //Create an array of markers for attractions, store coordinates data and content 
+    //to display location and title of the place
     const markers = [
         {
             coordinates: { lat: 40.1085, lng: 9.6893 },
