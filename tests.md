@@ -19,12 +19,28 @@ When the site developed closer to the final stage, the next test was to check ev
 <img src="assets/docs/html_validator.jpg" style="margin: 0;">
 
 - **CSS** - passing code into The W3C CSS Validation Service - Jigsaw brought no errors.
-- **Java Script** - passing code to JSHint a static code analysis tool for JavaScript returned some metrics about missing "use strict" statement and single undefined and unused variable, this happened specifically when testing file maps.js but despite this, the functionality of code worked for the application. Testing all files with JS brought no errors, just informative metrics, and warnings as above. Variables were tested also by logging them to the console to check them after every instance. 
+- **Java Script** - passing code to JSHint a static code analysis tool for JavaScript returned some metrics about missing "use strict" statement and single undefined and unused variable, this happened specifically when testing file maps.js but despite this, the functionality of code worked for the application. Testing all files with JS brought no errors, just informative metrics, and warnings as above.
 
 <img src="assets/docs/hintjs_validator.jpg" style="margin: 0;">
 
+ Variables were tested also by logging them to the console to check them after every instance. 
+
+ <img src="assets/docs/console_log.jpg" style="margin: 0;">
+
 # Other Tests
-- **Google Chrome Developer Tools** - The further tests of the application were about to check responsiveness in all sections using devtools. Multiple tests on multiple desktop sizes confirmed that a structure works quite well on mobile devices as well as bigger desktop sizes. The tests were conducted mainly with the use of the Google Chrome browser. However, the research also covered other browsers such as Mozilla Firefox, Microsoft Edge, and Apple Safari. In general, after inspecting by use of the tools available in each browser, it was found that the application displays correctly and is responsive to different screen sizes. In addition, the test was performed live on devices such as Huawei P20, Samsung Galaxy S10, iPhone 11, iPad 9.7, HP Spectre 13 Asus Zenbook, iMac. The result was very good and shown that on all those screen devices website was responsive and displayed as expected.
+- **Google Chrome Developer Tools** - The further tests of the application were about to check responsiveness in all sections using devtools. Multiple tests on multiple desktop sizes confirmed that a structure works quite well on mobile devices as well as bigger desktop sizes. The tests were conducted mainly with the use of the Google Chrome browser. However, the research also covered other browsers such as Mozilla Firefox, Microsoft Edge, and Apple Safari. In general, after inspecting by use of the tools available in each browser, it was found that the application displays correctly and is responsive to different screen sizes. 
+
+| Browser | Device | Compatibility |
+| --- | --- | --- |
+| Google Chrome | HP Spectre 13 | no problems occurred |
+| Mozilla Firefox | HP Spectre 13 | no problems occurred |
+| Microsoft Edge | HP Spectre 13 | no problems occurred |
+| Apple Safari | iPad 5th gen | no problems occurred |
+
+
+<img src="assets/docs/devtool_devices.jpg" style="margin: 0;">
+
+- In addition, the test was performed live on devices such as Huawei P20, Samsung Galaxy S10, iPhone 11, iPad 9.7, HP Spectre 13, Asus Zenbook UX32A, iMac. The result was very good and shown that on all those screen devices website was responsive and displayed as expected.
 
 - **Lighthouse web.dev** - Further tests were done by using Lighthouse open source, the performance result was quite good, no common issues were shown about timing, interactions, accesibility, only one tip to watch sizing of images, but since the application is loaded with pictures the general score was on an acceptable level. 
 
