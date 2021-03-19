@@ -266,7 +266,7 @@ a.go-to {
         right: 0%;
     }
     50% {
-        right: 35%;
+        right: 30%;
     }
     100% {
         right: 0%;
@@ -398,9 +398,10 @@ div#map {
     min-height: 400px;
     padding: 60px;
     margin-bottom: 50px;
-    color: #fafafa;
+    color:whitesmoke;
+    text-shadow: 3px 3px 3px #0b2c5c;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .form-control.btn {
