@@ -9,7 +9,7 @@ The first step of the testing process was to create the basic framework of this 
 5. **Buttons nested at the Trips section** - has been checked and ensured that shows and hides desirable content, user can decide to choose to explore the trips or scroll to another section.
 6. **The scrolling gallery** - was checked that runs properly on different devices and is responsive and eye-catching for the user who expects an engaging visual experience. 
 7. **Google Maps window included in the Attractions section** - has been checked that displays properly and shows all markers together with selected attractions titles, users can easily click at separate markers and get a brief orientation about recommended attractions.
-8. **Contact form in the Contact section** - has been checked and ensured that works as expected, Submit/Send button without entering the required e-mail address shows error and asks the user to fill out this field with input. Also, e-mail address input when tested with the wrong format shows an error and asks the user to fill out the correct input with @. The newsletter agrees on the button was checked and as a result, allows users to make choices about sending information about events organized in the shop. In addition, a test refers to sending a request to the actual provider of services. Sending email works properly via platform what was proven by sending and receiving a message in the attached inbox. After submitting this contact form user gets an actual response directly on the screen which shows that emails were sent with success. Tests showed also that form clearing up from data after pushing a send button. 
+8. **Contact form in the Contact section** - has been checked and ensured that works as expected.  Submit/Send button without entering the required e-mail address shows an error and asks the user to fill out this field with input. Also, e-mail address input when tested with the wrong format shows an error and asks the user to fill out the correct input with @. The newsletter agrees-on button was checked and as a result, allows users to make choices about sending the newsletter. In addition, a test refers to sending a request to the actual provider of services, trip offer request. Sending email works properly via platform what was proven by sending and receiving a message in the attached inbox. After submitting this contact form user gets an actual response directly on the screen which shows that emails were sent with success. Tests showed also that form clearing up from data after pushing a send button. 
 9. **Social media icons settled in the footer** - has been checked and ensured that points the user to social media main pages and opens in a new tab.
 
 # Validation 
@@ -23,7 +23,7 @@ When the site developed closer to the final stage, the next test was to check ev
 
 <img src="assets/docs/hintjs_validator.jpg" style="margin: 0;">
 
- Variables were tested also by logging them to the console to check them after every instance. 
+* Variables were tested also by logging them to the **dev tools console** to check them after every instance. 
 
  <img src="assets/docs/console_log.jpg" style="margin: 0;">
 
